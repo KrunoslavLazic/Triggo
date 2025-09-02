@@ -37,10 +37,6 @@ class DailyStreakScore(
         )
     }
 
-    fun activeDays(): Flow<Set<LocalDate>> = dataStore.data.map { p ->
-        (p[K_DAYS] ?: emptySet()).map(LocalDate::parse).toSet()
-    }
-
     suspend fun markActiveToday() {
         val today = LocalDate.now(zoneId)
         dataStore.edit { p ->
