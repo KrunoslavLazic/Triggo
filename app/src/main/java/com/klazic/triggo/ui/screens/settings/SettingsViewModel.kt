@@ -1,6 +1,5 @@
 package com.klazic.triggo.ui.screens.settings
 
-import android.view.View
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope

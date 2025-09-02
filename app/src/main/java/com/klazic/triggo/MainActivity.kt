@@ -3,7 +3,6 @@ package com.klazic.triggo
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.appcompat.app.AppCompatActivity
 import com.klazic.triggo.ui.TrigoApp
 
 class MainActivity : ComponentActivity() {

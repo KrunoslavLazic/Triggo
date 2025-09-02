@@ -9,9 +9,8 @@ class QuizRepository(private val context: Context) {
 
     private val json = Json { ignoreUnknownKeys = true }
     private val questionsCache = mutableMapOf<String, List<QuizQuestion>>()
-    private val countsCache = mutableMapOf<String, Map<Difficulty, Int>>()
 
-    fun questions(categoryId: String, difficulty: Difficulty? = null): List<QuizQuestion> {
+    private fun questions(categoryId: String, difficulty: Difficulty? = null): List<QuizQuestion> {
         val all = questionsCache.getOrPut(categoryId) {
             val text = context.assets.open("questions/$categoryId.json").bufferedReader()
                 .use { it.readText() }
