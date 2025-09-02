@@ -234,7 +234,7 @@ private fun ResultScreen(
                         isSystemInDarkTheme()
                             .let { dark ->
                                 if (dark)
-                                    androidx.compose.ui.graphics.lerp(
+                                    lerp(
                                         MaterialTheme.colorScheme.surfaceVariant,
                                         MaterialTheme.colorScheme.secondaryContainer,
                                         0.18f

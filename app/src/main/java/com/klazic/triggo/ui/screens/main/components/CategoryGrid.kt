@@ -26,7 +26,6 @@ fun CategoryGrid(
 ) {
     val streak = LocalDailyStreak.current
     val streakSummary by streak.summary.collectAsStateWithLifecycle(StreakSummary())
-    val activeDays by streak.activeDays().collectAsStateWithLifecycle(emptySet())
 
     LazyVerticalGrid(
         columns = GridCells.Adaptive(minSize = 200.dp),

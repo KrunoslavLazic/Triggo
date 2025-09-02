@@ -29,16 +29,4 @@ object MainContract {
         @DrawableRes val iconRes:Int
     )
 
-    sealed interface UiEvent {
-        data class OnCategoryClick(val id: String) : UiEvent
-        data class OnContinue(val categoryId: String, val difficulty: Difficulty): UiEvent
-        data object OnResetProgress : UiEvent
-    }
-
-    sealed interface UiEffect {
-        data class ShowMessage(val messageRes: Int) : UiEffect
-        data class NavigateToQuiz(val categoryId: String, val difficulty: Difficulty) : UiEffect
-    }
-
-
 }
