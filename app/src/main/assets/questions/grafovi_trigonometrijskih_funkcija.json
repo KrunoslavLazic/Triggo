@@ -1,0 +1,93 @@
+[
+  {
+    "id": "grafovi_trigonometrijskih_funkcija_001",
+    "categoryId": "grafovi_trigonometrijskih_funkcija",
+    "difficulty": "EASY",
+    "promptLatex": "Period \\sin x je:",
+    "choicesLatex": [
+      "\\pi",
+      "2\\pi",
+      "\\frac{\\pi}{2}",
+      "4\\pi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "grafovi_trigonometrijskih_funkcija_002",
+    "categoryId": "grafovi_trigonometrijskih_funkcija",
+    "difficulty": "EASY",
+    "promptLatex": "Amplituda \\cos x je:",
+    "choicesLatex": [
+      "1",
+      "2",
+      "0",
+      "\\text{Nedefinirano}"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "grafovi_trigonometrijskih_funkcija_003",
+    "categoryId": "grafovi_trigonometrijskih_funkcija",
+    "difficulty": "EASY",
+    "promptLatex": "Graf tan x ima vertikalne asimptote kod:",
+    "choicesLatex": [
+      "x=n\\pi",
+      "x=\\frac{\\pi}{2}+n\\pi",
+      "x=n\\frac{\\pi}{2}",
+      "x=2n\\pi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "grafovi_trigonometrijskih_funkcija_004",
+    "categoryId": "grafovi_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "Vrijednosni skup sin x je:",
+    "choicesLatex": [
+      "[-1,1]",
+      "\\left[0,\\infty\\right)",
+      "\\left(-\\infty,\\infty\\right)",
+      "[0,1]"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "grafovi_trigonometrijskih_funkcija_005",
+    "categoryId": "grafovi_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "Vrijednosni skup tan x je:",
+    "choicesLatex": [
+      "[0,1]",
+      "[-1,1]",
+      "\\left(-\\infty,\\infty\\right)",
+      "\\left[0,\\infty\\right)"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "grafovi_trigonometrijskih_funkcija_006",
+    "categoryId": "grafovi_trigonometrijskih_funkcija",
+    "difficulty": "HARD",
+    "promptLatex": "Period \\cos\\left(2x\\right) je:",
+    "choicesLatex": [
+      "\\pi",
+      "2\\pi",
+      "4\\pi",
+      "\\frac{\\pi}{2}"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "grafovi_trigonometrijskih_funkcija_007",
+    "categoryId": "grafovi_trigonometrijskih_funkcija",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Fazni pomak }\\sin\\left(x-\\frac{\\pi}{2}\\right)\\text{ je:}",
+    "choicesLatex": [
+      "0",
+      "\\frac{\\pi}{2}\\ \\text{udesno}",
+      "\\frac{\\pi}{2}\\ \\text{ulijevo}",
+      "\\pi\\ \\text{udesno}"
+    ],
+    "correctIndex": 1
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "trigonometrijske_jednadzbe_001",
+    "categoryId": "trigonometrijske_jednadzbe",
+    "difficulty": "EASY",
+    "promptLatex": "Riješi: \\sin x = 0",
+    "choicesLatex": [
+      "x=n\\pi",
+      "x=\\frac{\\pi}{2}+n\\pi",
+      "x=2n\\pi",
+      "x=\\frac{\\pi}{4}+n\\pi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "trigonometrijske_jednadzbe_002",
+    "categoryId": "trigonometrijske_jednadzbe",
+    "difficulty": "EASY",
+    "promptLatex": "Riješi: \\cos x = 0",
+    "choicesLatex": [
+      "x=n\\pi",
+      "x=\\frac{\\pi}{2}+n\\pi",
+      "x=2n\\pi",
+      "x=\\frac{\\pi}{4}+n\\pi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "trigonometrijske_jednadzbe_003",
+    "categoryId": "trigonometrijske_jednadzbe",
+    "difficulty": "MEDIUM",
+    "promptLatex": "Riješi: \\tan x = 0.",
+    "choicesLatex": [
+      "x=n\\pi",
+      "x=\\frac{\\pi}{2}+n\\pi",
+      "x=\\frac{\\pi}{4}+n\\pi",
+      "x=2n\\pi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "trigonometrijske_jednadzbe_004",
+    "categoryId": "trigonometrijske_jednadzbe",
+    "difficulty": "MEDIUM",
+    "promptLatex": "Riješi: \\sin x = 1.",
+    "choicesLatex": [
+      "x=\\frac{\\pi}{2}+2n\\pi",
+      "x=\\pi+2n\\pi",
+      "x=0+2n\\pi",
+      "x=\\frac{3\\pi}{2}+2n\\pi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "trigonometrijske_jednadzbe_005",
+    "categoryId": "trigonometrijske_jednadzbe",
+    "difficulty": "HARD",
+    "promptLatex": "Riješi: \\cos x = \\frac{1}{2}.",
+    "choicesLatex": [
+      "x=\\frac{\\pi}{3}+2n\\pi,\\ \\frac{5\\pi}{3}+2n\\pi",
+      "x=\\frac{\\pi}{4}+n\\pi",
+      "x=\\frac{\\pi}{6}+2n\\pi",
+      "x=\\frac{\\pi}{2}+n\\pi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "trigonometrijske_jednadzbe_006",
+    "categoryId": "trigonometrijske_jednadzbe",
+    "difficulty": "HARD",
+    "promptLatex": "Riješi: \\tan x = \\sqrt{3}.",
+    "choicesLatex": [
+      "x=\\frac{\\pi}{6}+n\\pi",
+      "x=\\frac{\\pi}{3}+n\\pi",
+      "x=\\frac{\\pi}{4}+n\\pi",
+      "x=\\frac{\\pi}{2}+n\\pi"
+    ],
+    "correctIndex": 1
+  }
+]

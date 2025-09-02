@@ -1,0 +1,132 @@
+[
+  {
+    "id": "trigonometrijski_omjeri_001",
+    "categoryId": "trigonometrijski_omjeri",
+    "difficulty": "EASY",
+    "promptLatex": "\\sin\\left(30^{\\circ}\\right) = ?",
+    "choicesLatex": [
+      "0",
+      "1",
+      "\\frac{1}{2}",
+      "\\frac{\\sqrt{3}}{2}"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "trigonometrijski_omjeri_002",
+    "categoryId": "trigonometrijski_omjeri",
+    "difficulty": "EASY",
+    "promptLatex": "\\cos\\left(60^{\\circ}\\right) = ?",
+    "choicesLatex": [
+      "0",
+      "\\frac{1}{2}",
+      "\\frac{\\sqrt{3}}{2}",
+      "1"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "trigonometrijski_omjeri_003",
+    "categoryId": "trigonometrijski_omjeri",
+    "difficulty": "EASY",
+    "promptLatex": "\\tan\\left(45^{\\circ}\\right) = ?",
+    "choicesLatex": [
+      "0",
+      "1",
+      "\\sqrt{3}",
+      "\\text{Nedefinirano}"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "trigonometrijski_omjeri_004",
+    "categoryId": "trigonometrijski_omjeri",
+    "difficulty": "EASY",
+    "promptLatex": "\\cos\\left(0^{\\circ}\\right) =",
+    "choicesLatex": [
+      "0",
+      "1",
+      "-1",
+      "\\text{Nedefinirano}"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "trigonometrijski_omjeri_005",
+    "categoryId": "trigonometrijski_omjeri",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\sin\\left(90^{\\circ}\\right) =",
+    "choicesLatex": [
+      "0",
+      "1",
+      "-1",
+      "\\text{Nedefinirano}"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "trigonometrijski_omjeri_006",
+    "categoryId": "trigonometrijski_omjeri",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Koji omjer je suprotnica/hipotenuza?}",
+    "choicesLatex": [
+      "\\text{Cos}",
+      "\\text{Tan}",
+      "\\text{Sin}",
+      "\\text{Sec}"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "trigonometrijski_omjeri_007",
+    "categoryId": "trigonometrijski_omjeri",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\tan\\left(90^{\\circ}\\right) =",
+    "choicesLatex": [
+      "0",
+      "1",
+      "\\text{Nedefinirano}",
+      "∞"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "trigonometrijski_omjeri_008",
+    "categoryId": "trigonometrijski_omjeri",
+    "difficulty": "HARD",
+    "promptLatex": "\\cos\\left(180^{\\circ}\\right) =",
+    "choicesLatex": [
+      "0",
+      "-1",
+      "1",
+      "\\text{Nedefinirano}"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "trigonometrijski_omjeri_009",
+    "categoryId": "trigonometrijski_omjeri",
+    "difficulty": "HARD",
+    "promptLatex": "\\sin\\left(270^{\\circ}\\right) =",
+    "choicesLatex": [
+      "1",
+      "-1",
+      "0",
+      "\\text{Nedefinirano}"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "trigonometrijski_omjeri_010",
+    "categoryId": "trigonometrijski_omjeri",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Koji identitet je točan?}",
+    "choicesLatex": [
+      "\\sin\\left(0^{\\circ}\\right)=1",
+      "\\cos\\left(0^{\\circ}\\right)=1",
+      "\\tan\\left(0^{\\circ}\\right)=1",
+      "\\sin\\left(0^{\\circ}\\right)=\\frac{\\sqrt{3}}{2}"
+    ],
+    "correctIndex": 1
+  }
+]

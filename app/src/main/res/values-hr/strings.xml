@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Triggo</string>
+    <string name="avatar_scientist_fox">Lisica Znanstvenik</string>
+    <string name="avatar_teacher_owl">Sova Profesor</string>
+    <string name="avatar_astronaut_mouse">Miš Astronaut</string>
+    <string name="avatar_architect_dog">Pas Arhitekt</string>
+    <string name="avatar_librarian_cat">Librarian Cat</string>
+
+    <string name="osnove_kutova_i_radijana">Osnove kutova i radijana</string>
+    <string name="trigonometrijski_omjeri">Trigonometrijski omjeri</string>
+    <string name="trigonometrijski_identiteti">Trigonometrijski identiteti</string>
+    <string name="grafovi_trigonometrijskih_funkcija">Grafovi trigonometrijski funkcija</string>
+    <string name="inverzne_trigonometrijske_funkcije">Inverzne trigonometrijske funkcije</string>
+    <string name="trigonometrijske_jednadzbe">Trigonometrijske jednazbe</string>
+    <string name="primjene_trigonometrije">Primjena trigonometrije</string>
+
+    <string name="progress_by_difficulty">Napredak po težini</string>
+    <string name="easy">Lagano</string>
+    <string name="medium">Prosječno</string>
+    <string name="hard">Teško</string>
+
+    <string name="lessons">Lekcije</string>
+    <string name="hello_name">Pozdrav, %1$s</string>
+    <string name="ready_for_trigonometry">Spreman za trigonometriju?</string>
+    <string name="profile">Profil</string>
+
+    <string name="display_name_and_avatar">Tvoje ime i avatar</string>
+    <string name="name">Ime</string>
+    <string name="save_name">Spremi ime</string>
+    <string name="content_data">Pohranjeni podaci</string>
+    <string name="reset_progress">Resetiraj napredak</string>
+    <string name="reset_message">Ovo će obrisati svu tvoju povijest globalno i individualnog napretka. Ovo se ne može obnoviti</string>
+    <string name="reset">Resetiraj</string>
+    <string name="resetting">Resetiranje…</string>
+    <string name="cancel">Odustani</string>
+    <string name="about">O aplikaciji</string>
+    <string name="app_version">Verzija</string>
+
+    <string name="continue_label">Nastavi</string>
+    <string name="continue_subtitle">Nastavi svoju sljedeću lekciju →</string>
+    <string name="days_streak">zanizanih dana!</string>
+    <string name="completed">Rješeno</string>
+
+    <string name="result">Rezultat</string>
+    <string name="this_session">Ova sekcija</string>
+    <string name="correct_answers">Točni odgovori</string>
+    <string name="best_score">Najbolji rezultat</string>
+    <string name="all_time">Sva vremena</string>
+    <string name="mastery">Majstorstvo</string>
+    <string name="home">Home</string>
+    <string name="retry">Ponovi</string>
+    <string name="finish">Završi</string>
+    <string name="next">Idući</string>
+
+    <string name="question">Pitanje</string>
+    <string name="guest">Gost</string>
+    <string name="well_done">Bravo!</string>
+    <string name="daily_challenge">Dnevni izazov</string>
+    <string name="streak_kept">Očuvao si današnji dan u nizu rješavanja</string>
+    <string name="streak_message">Riješi barem jednu lekciju da sačuvaš niz</string>
+
+    <string name="welcome">Dobrodošao</string>
+    <string name="saving">Spremanje…</string>
+    <string name="start">Početak</string>
+    <string name="your_name">Tvoje ime</string>
+    <string name="master_trigonometry">Idemo izoštriti tvoje trigonometrijske vještine!</string>
+    <string name="settings">Postavke</string>
+    <string name="appearance">Izgled</string>
+    <string name="theme_and_color">Tema i boje</string>
+    <string name="dynamic">Dinamične boje</string>
+
+    <string name="language">Jezik</string>
+    <string name="language_system">Sistem</string>
+    <string name="language_english">Engleski</string>
+    <string name="language_croatian">Hrvatski</string>
+    <string name="your_progress">Tvoj napredak</string>
+    <string name="questions">Pitanja</string>
+    <string name="reset_toast">Tvoj napredak je obrisan.</string>
+</resources>

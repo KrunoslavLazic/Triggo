@@ -1,0 +1,93 @@
+[
+  {
+    "id": "primjene_trigonometrije_001",
+    "categoryId": "primjene_trigonometrije",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{U pravokutnom trokutu, ako je hipotenuza } 10 \\text{ a suprotna stranica } 6,\\ \\sin\\theta\\ =\\ ?",
+    "choicesLatex": [
+      "\\frac{6}{10}",
+      "\\frac{8}{10}",
+      "\\frac{10}{6}",
+      "\\frac{10}{8}"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "primjene_trigonometrije_002",
+    "categoryId": "primjene_trigonometrije",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Ljestve duljine } 5\\,\\text{m naslonjene na zid tvore kut od } 60^{\\circ} \\text{ s tlom. Visina?}",
+    "choicesLatex": [
+      "2.5\\,\\text{m}",
+      "5\\cos 60^{\\circ}",
+      "5\\sin 60^{\\circ}=5\\cdot\\frac{\\sqrt{3}}{2}",
+      "10\\,\\text{m}"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "primjene_trigonometrije_003",
+    "categoryId": "primjene_trigonometrije",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Visina jednakostraničnog trokuta sa stranicom } a\\text{:}",
+    "choicesLatex": [
+      "\\frac{a}{2}",
+      "\\frac{\\sqrt{3}}{2}a",
+      "a",
+      "a\\cdot\\frac{\\sqrt{2}}{2}"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "primjene_trigonometrije_004",
+    "categoryId": "primjene_trigonometrije",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Formula za površinu trokuta pomoću sinusa:}",
+    "choicesLatex": [
+      "\\frac{1}{2}ab\\,\\sin C",
+      "ab\\,\\cos C",
+      "a^{2}+b^{2}",
+      "\\frac{1}{2}ab\\,\\cos C"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "primjene_trigonometrije_005",
+    "categoryId": "primjene_trigonometrije",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Koja formula je sinusni poučak?}",
+    "choicesLatex": [
+      "\\frac{\\sin A}{a}=\\frac{\\sin B}{b}=\\frac{\\sin C}{c}",
+      "a^{2}=b^{2}+c^{2}-2bc\\,\\cos A",
+      "\\frac{\\tan A}{a}=\\frac{\\tan B}{b}",
+      "\\frac{a}{\\cos A}=\\frac{b}{\\cos B}"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "primjene_trigonometrije_006",
+    "categoryId": "primjene_trigonometrije",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Koja formula je kosinusni poučak?}",
+    "choicesLatex": [
+      "c^{2}=a^{2}+b^{2}-2ab\\,\\cos C",
+      "c^{2}=a^{2}+b^{2}",
+      "\\frac{\\sin A}{a}=\\frac{\\sin B}{b}",
+      "c=a\\,\\cos B"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "primjene_trigonometrije_007",
+    "categoryId": "primjene_trigonometrije",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Ako je } \\tan\\theta=\\frac{3}{4},\\ \\sin\\theta\\ =\\ ?",
+    "choicesLatex": [
+      "\\frac{3}{5}",
+      "\\frac{4}{5}",
+      "\\frac{5}{3}",
+      "\\frac{5}{4}"
+    ],
+    "correctIndex": 0
+  }
+]

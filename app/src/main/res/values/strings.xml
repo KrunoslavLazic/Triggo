@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Triggo</string>
+    <string name="avatar_scientist_fox">Scientist Fox</string>
+    <string name="avatar_teacher_owl">Teacher Owl</string>
+    <string name="avatar_astronaut_mouse">Astronaut Mouse</string>
+    <string name="avatar_architect_dog">Architect Dog</string>
+    <string name="avatar_librarian_cat">Librarian Cat</string>
+
+    <string name="osnove_kutova_i_radijana">Osnove kutova i radijana</string>
+    <string name="trigonometrijski_omjeri">Trigonometrijski omjeri</string>
+    <string name="trigonometrijski_identiteti">Trigonometrijski identiteti</string>
+    <string name="grafovi_trigonometrijskih_funkcija">Grafovi trigonometrijski funkcija</string>
+    <string name="inverzne_trigonometrijske_funkcije">Inverzne trigonometrijske funkcije</string>
+    <string name="trigonometrijske_jednadzbe">Trigonometrijske jednazbe</string>
+    <string name="primjene_trigonometrije">Primjena trigonometrije</string>
+
+    <string name="progress_by_difficulty">Progress by difficulty</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+
+    <string name="lessons">Lessons</string>
+    <string name="hello_name">Hello there, %1$s</string>
+    <string name="ready_for_trigonometry">Ready for trigonometry?</string>
+    <string name="profile">Profile</string>
+
+    <string name="display_name_and_avatar">Your display name and avatar</string>
+    <string name="name">Name</string>
+    <string name="save_name">Save name</string>
+    <string name="content_data">Content and data</string>
+    <string name="reset_progress">Reset progress</string>
+    <string name="reset_message">This will delete all your quiz history, mastery and best scores across the app. This cannot be undone.</string>
+    <string name="reset">Reset</string>
+    <string name="resetting">Resetting…</string>
+    <string name="cancel">Cancel</string>
+    <string name="about">About</string>
+    <string name="app_version">App version</string>
+
+    <string name="continue_label">Continue</string>
+    <string name="continue_subtitle">Continue your most recent lesson →</string>
+    <string name="days_streak">days streak!</string>
+    <string name="completed">Completed</string>
+
+    <string name="result">Result</string>
+    <string name="this_session">This session</string>
+    <string name="correct_answers">Correct answers</string>
+    <string name="best_score">Best score</string>
+    <string name="all_time">All time</string>
+    <string name="mastery">Mastery</string>
+    <string name="home">Home</string>
+    <string name="retry">Retry</string>
+    <string name="finish">Finish</string>
+    <string name="next">Next</string>
+
+    <string name="question">Question</string>
+    <string name="guest">Guest</string>
+    <string name="well_done">Well done!</string>
+    <string name="daily_challenge">Daily challenge</string>
+    <string name="streak_kept">You\'ve kept your streak today!</string>
+    <string name="streak_message">Complete any quiz today to keep the streak</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="saving">Saving…</string>
+    <string name="start">Start</string>
+    <string name="your_name">Your name</string>
+    <string name="master_trigonometry">Let\'s master your trigonometry skills!</string>
+    <string name="settings">Settings</string>
+    <string name="appearance">Appearance</string>
+    <string name="theme_and_color">Theme and colors</string>
+    <string name="dynamic">Dynamic colors</string>
+
+    <string name="language">Language</string>
+    <string name="language_system">System</string>
+    <string name="language_english">English</string>
+    <string name="language_croatian">Croatian</string>
+    <string name="your_progress">Your progress</string>
+    <string name="questions">Questions</string>
+    <string name="reset_toast">Your progress has been reset.</string>
+</resources>
