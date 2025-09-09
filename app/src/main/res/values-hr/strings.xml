@@ -13,14 +13,11 @@
     <string name="svojstva_trigonometrijskih_funkcija">5 Svojstva trigonometrijskih funkcija</string>
     <string name="osnovni_trigonometrijski_identiteti">6 Osnovni trigonometrijski identiteti</string>
     <string name="adicijske_formule">7 Adicijske formule</string>
-    <string name="grafovi_trigonometrijskih_funkcija">8 Grafovi trigonometrijski funkcija</string>
+    <string name="grafovi_trigonometrijskih_funkcija">8 Grafovi trigonometrijskih funkcija</string>
     <string name="trigonometrijske_jednadzbe">9 Trigonometrijske jednazbe</string>
     <string name="trigonometrijske_nejednadzbe">10 Trigonometrijske nejednadžbe</string>
     <string name="trigonometrija_pravokutnog_trokuta">11 Trigonometrija pravokutnog trokuta</string>
     <string name="sinusov_i_kosinusov_poucak">12 Sinusov i kosinusov poucak</string>
-    <string name="trigonometrijski_omjeri">13 Trigonometrijski omjeri</string>
-    <string name="inverzne_trigonometrijske_funkcije">14 Inverzne trigonometrijske funkcije</string>
-    <string name="primjene_trigonometrije">15 Primjena trigonometrije</string>
 
     <string name="progress_by_difficulty">Napredak po težini</string>
     <string name="easy">Lagano</string>

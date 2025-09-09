@@ -73,24 +73,7 @@ object LessonAssets {
             "sinusov_i_kosinusov_poucak",
             R.string.sinusov_i_kosinusov_poucak,
             R.drawable.ic_identity
-        ),
-        LessonDef(
-            "trigonometrijski_omjeri",
-            R.string.trigonometrijski_omjeri,
-            R.drawable.ic_ratios
-        ),
-        LessonDef(
-            "inverzne_trigonometrijske_funkcije",
-            R.string.inverzne_trigonometrijske_funkcije,
-            R.drawable.ic_inverse
-        ),
-
-        LessonDef(
-            "primjene_trigonometrije",
-            R.string.primjene_trigonometrije,
-            R.drawable.ic_applications
         )
-
         )
 
 

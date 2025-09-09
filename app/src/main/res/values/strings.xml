@@ -18,9 +18,6 @@
     <string name="trigonometrijske_nejednadzbe">10 Trigonometric inequalities </string>
     <string name="trigonometrija_pravokutnog_trokuta">11 Right triangle trigonometry</string>
     <string name="sinusov_i_kosinusov_poucak">12 Sine and cosine rule</string>
-    <string name="trigonometrijski_omjeri">13 Trigonometric ratios</string>
-    <string name="inverzne_trigonometrijske_funkcije">14 Inverse trigonometric functions</string>
-    <string name="primjene_trigonometrije">15 Application of trigonometry</string>
 
 
     <string name="progress_by_difficulty">Progress by difficulty</string>
