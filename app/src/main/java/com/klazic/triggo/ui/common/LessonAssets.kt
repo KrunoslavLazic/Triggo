@@ -15,18 +15,38 @@ data class LessonDef(
 object LessonAssets {
     val allLessons = listOf(
         LessonDef(
+            "brojevna_kruznica",
+            R.string.brojevna_kruznica,
+            R.drawable.ic_inverse
+        ),
+        LessonDef(
             "osnove_kutova_i_radijana",
             R.string.osnove_kutova_i_radijana,
             R.drawable.ic_angles
         ),
         LessonDef(
-            "trigonometrijski_omjeri",
-            R.string.trigonometrijski_omjeri,
-            R.drawable.ic_ratios
+            "definicija_trigonometrijskih_funkcija",
+            R.string.definicija_trigonometrijskih_funkcija,
+            R.drawable.ic_inverse
         ),
         LessonDef(
-            "trigonometrijski_identiteti",
-            R.string.trigonometrijski_identiteti,
+            "odredivanje_vrijednosti_trigonometrijskih_funkcija",
+            R.string.odredivanje_vrijednosti_trigonometrijskih_funkcija,
+            R.drawable.ic_inverse
+        ),
+        LessonDef(
+            "svojstva_trigonometrijskih_funkcija",
+            R.string.svojstva_trigonometrijskih_funkcija,
+            R.drawable.ic_inverse
+        ),
+        LessonDef(
+            "osnovni_trigonometrijski_identiteti",
+            R.string.osnovni_trigonometrijski_identiteti,
+            R.drawable.ic_identity
+        ),
+        LessonDef(
+            "adicijske_formule",
+            R.string.adicijske_formule,
             R.drawable.ic_identity
         ),
         LessonDef(
@@ -35,21 +55,48 @@ object LessonAssets {
             R.drawable.ic_graphs
         ),
         LessonDef(
+            "trigonometrijske_jednadzbe",
+            R.string.trigonometrijske_jednadzbe,
+            R.drawable.ic_equations
+        ),
+        LessonDef(
+            "trigonometrijske_nejednadzbe",
+            R.string.trigonometrijske_nejednadzbe,
+            R.drawable.ic_identity
+        ),
+        LessonDef(
+            "trigonometrija_pravokutnog_trokuta",
+            R.string.trigonometrija_pravokutnog_trokuta,
+            R.drawable.ic_identity
+        ),
+        LessonDef(
+            "sinusov_i_kosinusov_poucak",
+            R.string.sinusov_i_kosinusov_poucak,
+            R.drawable.ic_identity
+        ),
+        LessonDef(
+            "trigonometrijski_omjeri",
+            R.string.trigonometrijski_omjeri,
+            R.drawable.ic_ratios
+        ),
+        LessonDef(
             "inverzne_trigonometrijske_funkcije",
             R.string.inverzne_trigonometrijske_funkcije,
             R.drawable.ic_inverse
         ),
-        LessonDef("trigonometrijske_jednadzbe", R.string.trigonometrijske_jednadzbe, R.drawable.ic_equations),
+
         LessonDef(
             "primjene_trigonometrije",
             R.string.primjene_trigonometrije,
             R.drawable.ic_applications
-        ),
-    )
+        )
+
+        )
 
 
     private val byId = allLessons.associateBy { it.id }
     private fun defFor(id: String): LessonDef? = byId[id]
+
     @StringRes
     fun titleRes(rawId: String, @StringRes fallback: Int = R.string.app_name): Int =
         defFor(rawId)?.titleRes ?: fallback

@@ -6,13 +6,22 @@
     <string name="avatar_architect_dog">Architect Dog</string>
     <string name="avatar_librarian_cat">Librarian Cat</string>
 
-    <string name="osnove_kutova_i_radijana">Osnove kutova i radijana</string>
-    <string name="trigonometrijski_omjeri">Trigonometrijski omjeri</string>
-    <string name="trigonometrijski_identiteti">Trigonometrijski identiteti</string>
-    <string name="grafovi_trigonometrijskih_funkcija">Grafovi trigonometrijski funkcija</string>
-    <string name="inverzne_trigonometrijske_funkcije">Inverzne trigonometrijske funkcije</string>
-    <string name="trigonometrijske_jednadzbe">Trigonometrijske jednazbe</string>
-    <string name="primjene_trigonometrije">Primjena trigonometrije</string>
+    <string name="brojevna_kruznica">1 Number circle</string>
+    <string name="osnove_kutova_i_radijana">2 Basics of angles and radians</string>
+    <string name="definicija_trigonometrijskih_funkcija">3 Definition of trigonometric functions</string>
+    <string name="odredivanje_vrijednosti_trigonometrijskih_funkcija">4 Value determination of trigonometric functions</string>
+    <string name="svojstva_trigonometrijskih_funkcija">5 Properties of trigonometric functions</string>
+    <string name="osnovni_trigonometrijski_identiteti">6 Basic trigonometric identities</string>
+    <string name="adicijske_formule">7 Addition formulas</string>
+    <string name="grafovi_trigonometrijskih_funkcija">8 Graphs of trigonometric functions</string>
+    <string name="trigonometrijske_jednadzbe">9 Trigonometric equations</string>
+    <string name="trigonometrijske_nejednadzbe">10 Trigonometric inequalities </string>
+    <string name="trigonometrija_pravokutnog_trokuta">11 Right triangle trigonometry</string>
+    <string name="sinusov_i_kosinusov_poucak">12 Sine and cosine rule</string>
+    <string name="trigonometrijski_omjeri">13 Trigonometric ratios</string>
+    <string name="inverzne_trigonometrijske_funkcije">14 Inverse trigonometric functions</string>
+    <string name="primjene_trigonometrije">15 Application of trigonometry</string>
+
 
     <string name="progress_by_difficulty">Progress by difficulty</string>
     <string name="easy">Easy</string>
@@ -76,4 +85,5 @@
     <string name="your_progress">Your progress</string>
     <string name="questions">Questions</string>
     <string name="reset_toast">Your progress has been reset.</string>
+
 </resources>

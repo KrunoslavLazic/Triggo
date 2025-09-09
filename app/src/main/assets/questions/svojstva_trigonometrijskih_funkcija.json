@@ -1,0 +1,158 @@
+[
+  {
+    "id": "001",
+    "categoryId": "svojstva_trigonometrijskih_funkcija",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Temeljni period funkcije }\\cos(3x)\\text{ iznosi}",
+    "choicesLatex": [
+      "3\\pi",
+      "\\pi",
+      "\\dfrac{2\\pi}{3}",
+      "\\dfrac{3}{2}"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "002",
+    "categoryId": "svojstva_trigonometrijskih_funkcija",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Temeljni period funkcije }\\sin(\\pi x)\\text{ iznosi}",
+    "choicesLatex": [
+      "2",
+      "1",
+      "2\\pi",
+      "\\pi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "003",
+    "categoryId": "svojstva_trigonometrijskih_funkcija",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Koja od sljedećih funkcija ima temeljni period }T=4\\pi\\text{?}",
+    "choicesLatex": [
+      "\\cos(2x)",
+      "\\cos(4x)",
+      "\\cos\\tfrac{x}{2}",
+      "\\cos\\tfrac{x}{4}"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "004",
+    "categoryId": "svojstva_trigonometrijskih_funkcija",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Koja je od sljedećih funkcija parna?}",
+    "choicesLatex": [
+      "\\sin x",
+      "\\cos x",
+      "\\tan x",
+      "\\cot x"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "005",
+    "categoryId": "svojstva_trigonometrijskih_funkcija",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Ako je }\\sin x=-0.4\\text{, koliko iznosi }\\sin(-x)\\text{?}",
+    "choicesLatex": [
+      "-0.4",
+      "0.4",
+      "0",
+      "-1"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "006",
+    "categoryId": "svojstva_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Ako je }\\cos x=-0.2\\text{ i }x\\in\\big[\\tfrac{\\pi}{2},\\pi\\big]\\text{, koliko približno iznosi }\\tan(-x)\\text{? (zaokružite na dvije decimale)}",
+    "choicesLatex": [
+      "4.90",
+      "-4.90",
+      "0.20",
+      "-0.20"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "007",
+    "categoryId": "svojstva_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Koja je od sljedećih funkcija parna?}",
+    "choicesLatex": [
+      "\\sin(2x)",
+      "\\sin^{3}(2x)",
+      "\\sin(x^{2})",
+      "\\sin(x^{3})"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "008",
+    "categoryId": "svojstva_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Koja je od sljedećih funkcija neparna?}",
+    "choicesLatex": [
+      "\\sin x+\\tan x",
+      "\\cos^{3}(2x)",
+      "\\tan(x^{2})",
+      "\\cos x+\\tan x"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "009",
+    "categoryId": "svojstva_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Ako je }\\cos x=-0.2\\text{ i }x\\in\\big[\\tfrac{\\pi}{2},\\pi\\big]\\text{, koliko približno iznosi }\\sin x\\text{? (zaokružite na dvije decimale)}",
+    "choicesLatex": [
+      "0.98",
+      "-0.98",
+      "0.20",
+      "-0.20"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "010",
+    "categoryId": "svojstva_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Koja je od sljedećih funkcija periodična?}",
+    "choicesLatex": [
+      "1+\\tan x",
+      "x+\\tan x",
+      "\\sin(x^{2})",
+      "x^{2}"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "011",
+    "categoryId": "svojstva_trigonometrijskih_funkcija",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Temeljni period funkcije }\\sin(3x)+2\\cos(4x)\\text{ iznosi}",
+    "choicesLatex": [
+      "\\dfrac{2\\pi}{3}",
+      "\\dfrac{\\pi}{2}",
+      "2\\pi",
+      "\\dfrac{4\\pi}{3}"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "012",
+    "categoryId": "svojstva_trigonometrijskih_funkcija",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Koja od sljedećih funkcija ima temeljni period }2\\text{?}",
+    "choicesLatex": [
+      "\\sin\\tfrac{x}{2}",
+      "\\sin\\tfrac{\\pi x}{2}",
+      "\\sin\\tfrac{\\pi x}{2}+\\sin(\\pi x)",
+      "\\cos(\\pi x)+\\sin(2\\pi x)"
+    ],
+    "correctIndex": 3
+  }
+]

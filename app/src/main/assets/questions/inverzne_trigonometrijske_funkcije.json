@@ -1,6 +1,6 @@
 [
   {
-    "id": "inverzne_trigonometrijske_funkcije_001",
+    "id": "001",
     "categoryId": "inverzne_trigonometrijske_funkcije",
     "difficulty": "EASY",
     "promptLatex": "\\sin^{-1}\\left(\\frac{1}{2}\\right) = ?",
@@ -13,7 +13,7 @@
     "correctIndex": 1
   },
   {
-    "id": "inverzne_trigonometrijske_funkcije_002",
+    "id": "002",
     "categoryId": "inverzne_trigonometrijske_funkcije",
     "difficulty": "EASY",
     "promptLatex": "\\text{Definicijsko područje }\\sin^{-1} x\\text{ je:}",
@@ -26,7 +26,7 @@
     "correctIndex": 1
   },
   {
-    "id": "inverzne_trigonometrijske_funkcije_003",
+    "id": "003",
     "categoryId": "inverzne_trigonometrijske_funkcije",
     "difficulty": "MEDIUM",
     "promptLatex": "\\text{Vrijednosni skup }\\cos^{-1} x\\text{ je:}",
@@ -39,7 +39,7 @@
     "correctIndex": 0
   },
   {
-    "id": "inverzne_trigonometrijske_funkcije_004",
+    "id": "004",
     "categoryId": "inverzne_trigonometrijske_funkcije",
     "difficulty": "MEDIUM",
     "promptLatex": "\\tan^{-1}\\left(1\\right) = ?",
@@ -52,7 +52,7 @@
     "correctIndex": 2
   },
   {
-    "id": "inverzne_trigonometrijske_funkcije_005",
+    "id": "005",
     "categoryId": "inverzne_trigonometrijske_funkcije",
     "difficulty": "HARD",
     "promptLatex": "\\cos^{-1}\\left(0\\right) = ?",

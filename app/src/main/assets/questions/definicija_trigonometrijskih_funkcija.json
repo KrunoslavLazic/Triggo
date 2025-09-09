@@ -1,0 +1,158 @@
+[
+  {
+    "id": "001",
+    "categoryId": "definicija_trigonometrijskih_funkcija",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Ako je }t=7\\pi\\text{, onda }\\sin t\\text{ iznosi}",
+    "choicesLatex": [
+      "0",
+      "1",
+      "-1",
+      "\\pi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "002",
+    "categoryId": "definicija_trigonometrijskih_funkcija",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Ako je }t=\\tfrac{-\\pi}{4}\\text{, onda }\\cos t\\text{ iznosi}",
+    "choicesLatex": [
+      "\\tfrac{\\sqrt{2}}{2}",
+      "\\tfrac{-\\sqrt{2}}{2}",
+      "-\\sqrt{2}",
+      "\\sqrt{2}"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "003",
+    "categoryId": "definicija_trigonometrijskih_funkcija",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Ako je }t=3\\pi\\text{, onda }\\tan t\\text{ iznosi}",
+    "choicesLatex": [
+      "-1",
+      "1",
+      "0",
+      "\\sqrt{2}"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "004",
+    "categoryId": "definicija_trigonometrijskih_funkcija",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Za koje je od ovih kutova vrijednost funkcije kosinus negativna}",
+    "choicesLatex": [
+      "-1.42\\,\\text{ rad}",
+      "0.56\\,\\text{ rad}",
+      "-0.56\\,\\text{ rad}",
+      "2.13\\,\\text{ rad}"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "005",
+    "categoryId": "definicija_trigonometrijskih_funkcija",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Koja od sljedećih vrijednosti nije definirana}",
+    "choicesLatex": [
+      "\\tan\\pi",
+      "\\tan(2\\pi)",
+      "\\tan 0",
+      "\\tan\\tfrac{5\\pi}{2}"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "006",
+    "categoryId": "definicija_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Ako je }\\cos x=\\cos\\tfrac{5\\pi}{4}\\text{ i }x\\in[4\\pi,5\\pi]\\text{, onda }x\\text{ iznosi}",
+    "choicesLatex": [
+      "\\tfrac{11\\pi}{4}",
+      "\\tfrac{19\\pi}{4}",
+      "\\tfrac{7\\pi}{4}",
+      "\\tfrac{15\\pi}{4}"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "007",
+    "categoryId": "definicija_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Ako je }\\sin x=-\\tfrac{\\sqrt{2}}{3}\\text{ i }x\\in\\big[-\\tfrac{\\pi}{2},0\\big]\\text{, onda }\\cos x\\text{ iznosi}",
+    "choicesLatex": [
+      "2\\,\\textrm{rad}",
+      "\\tfrac{\\sqrt{7}}{3}",
+      "\\tfrac{-\\sqrt{7}}{3}",
+      "\\tfrac{\\sqrt{2}}{3}"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "008",
+    "categoryId": "definicija_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Ako je }\\cos t=-\\tfrac{1}{2}\\text{ i }\\sin t<0\\text{, onda točka }E(t)\\text{ ima koordinate}",
+    "choicesLatex": [
+      "\\left(-\\tfrac{1}{2},-\\tfrac{\\sqrt{3}}{2}\\right)",
+      "\\left(-\\tfrac{1}{2},\\tfrac{\\sqrt{3}}{2}\\right)",
+      "\\left(\\tfrac{1}{2},-\\tfrac{\\sqrt{3}}{2}\\right)",
+      "\\left(-\\tfrac{\\sqrt{3}}{2},-\\tfrac{1}{2}\\right)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "009",
+    "categoryId": "definicija_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Ako je }\\tan t=-\\sqrt{3}\\text{ i }\\cos t>0\\text{, onda točka }E(t)\\text{ ima koordinate}",
+    "choicesLatex": [
+      "\\left(\\tfrac{1}{2},-\\tfrac{\\sqrt{3}}{2}\\right)",
+      "\\left(\\tfrac{1}{2},\\tfrac{\\sqrt{3}}{2}\\right)",
+      "\\left(-\\tfrac{1}{2},\\tfrac{\\sqrt{3}}{2}\\right)",
+      "\\left(\\tfrac{\\sqrt{3}}{2},\\tfrac{1}{2}\\right)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "010",
+    "categoryId": "definicija_trigonometrijskih_funkcija",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Za koje vrijednosti parametra }m\\text{ postoji }x\\in\\mathbb{R}\\text{ takav da je }\\cos x=\\tfrac{1}{1-m}",
+    "choicesLatex": [
+      "m\\in(-\\infty,0)\\cup(2,\\infty)",
+      "m\\in(-\\infty,1)\\cup(1,2)",
+      "m\\in(-\\infty,0)\\cup(0,2)",
+      "m\\in(0,1)\\cup(1,2)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "011",
+    "categoryId": "definicija_trigonometrijskih_funkcija",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Za koje vrijednosti parametra }m\\text{ postoji }x\\in\\mathbb{R}\\text{ takav da je }\\sin x=\\tfrac{1-4m}{2m+2}",
+    "choicesLatex": [
+      "m\\in(-1,1)",
+      "m\\in\\big(-1,\\tfrac{1}{3}\\big)",
+      "m\\in(-\\infty,-1)",
+      "m\\in\\big(-\\tfrac{1}{6},\\tfrac{3}{2}\\big)"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "012",
+    "categoryId": "definicija_trigonometrijskih_funkcija",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Ako je }\\tan x=\\tfrac{3}{4}\\text{ i }x\\in\\big(\\pi,\\tfrac{3\\pi}{2}\\big)\\text{, tada }\\sin x\\text{ iznosi}",
+    "choicesLatex": [
+      "\\tfrac{3}{5}",
+      "\\tfrac{-3}{5}",
+      "\\tfrac{4}{5}",
+      "\\tfrac{-4}{5}"
+    ],
+    "correctIndex": 1
+  }
+]

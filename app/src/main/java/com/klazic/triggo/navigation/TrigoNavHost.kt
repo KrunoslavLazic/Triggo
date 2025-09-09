@@ -39,8 +39,6 @@ fun TrigoNavHost() {
 
     NavHost(
         navController = nav, startDestination = Route.WELCOME,
-
-
         enterTransition = {
             slideIntoContainer(
                 AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = slideSpec

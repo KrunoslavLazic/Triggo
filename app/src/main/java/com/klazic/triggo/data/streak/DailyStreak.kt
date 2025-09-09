@@ -36,30 +36,24 @@ class DailyStreakScore(
             lastDay = p[K_LAST]?.let(LocalDate::parse)
         )
     }
-
     suspend fun markActiveToday() {
         val today = LocalDate.now(zoneId)
         dataStore.edit { p ->
             val set = (p[K_DAYS] ?: emptySet()).toMutableSet()
             if (set.contains(today.toString())) return@edit
-
             val last = p[K_LAST]?.let(LocalDate::parse)
             val cur = p[K_CUR] ?: 0
-
             val newCur = when {
                 last == null -> 1
                 last.plusDays(1) == today -> cur + 1
                 last == today -> cur
                 else -> 1
             }
-
             set.add(today.toString())
-
             if (set.size > 400) {
                 val cutoff = today.minusDays(400)
                 set.removeAll { LocalDate.parse(it).isBefore(cutoff) }
             }
-
             p[K_CUR] = newCur
             p[K_LAST] = today.toString()
             p[K_DAYS] = set

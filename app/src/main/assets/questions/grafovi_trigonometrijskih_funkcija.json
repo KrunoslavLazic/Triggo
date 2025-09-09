@@ -1,93 +1,158 @@
 [
   {
-    "id": "grafovi_trigonometrijskih_funkcija_001",
+    "id": "001",
     "categoryId": "grafovi_trigonometrijskih_funkcija",
     "difficulty": "EASY",
-    "promptLatex": "Period \\sin x je:",
+    "promptLatex": "\\text{Odredite najmanju pozitivnu nultočku funkcije }\\sin(4x-3)",
+    "choicesLatex": [
+      "4",
+      "\\tfrac{1}{3}",
+      "3",
+      "\\tfrac{3}{4}"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "002",
+    "categoryId": "grafovi_trigonometrijskih_funkcija",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Odredite najmanju pozitivnu nultočku funkcije }\\cos\\!\\left(2x-\\tfrac{\\pi}{3}\\right)",
+    "choicesLatex": [
+      "\\tfrac{\\pi}{6}",
+      "\\tfrac{\\pi}{3}",
+      "\\tfrac{5\\pi}{6}",
+      "\\tfrac{5\\pi}{12}"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "003",
+    "categoryId": "grafovi_trigonometrijskih_funkcija",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Odredite najmanju pozitivnu nultočku funkcije }\\tan\\!\\left(2x-\\tfrac{\\pi}{4}\\right)",
+    "choicesLatex": [
+      "\\tfrac{\\pi}{6}",
+      "\\tfrac{\\pi}{3}",
+      "0",
+      "\\tfrac{\\pi}{8}"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "004",
+    "categoryId": "grafovi_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Najnja manja pozitivna nultočka funkcije }3\\sin(\\omega x+\\varphi)\\text{ je }\\tfrac{1}{2}\\text{, a temeljni period }2\\text{. Tada je }\\varphi\\text{ jednak}",
+    "choicesLatex": [
+      "\\tfrac{\\pi}{4}",
+      "\\tfrac{\\pi}{2}",
+      "\\tfrac{\\pi}{8}",
+      "-\\pi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "005",
+    "categoryId": "grafovi_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Neka su }x_1\\text{ i }x_2\\text{ dvije uzastopne nultočke funkcije }4\\cos(2x+8)\\text{. Tada }|x_2-x_1|\\text{ iznosi}",
     "choicesLatex": [
       "\\pi",
-      "2\\pi",
-      "\\frac{\\pi}{2}",
-      "4\\pi"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": "grafovi_trigonometrijskih_funkcija_002",
-    "categoryId": "grafovi_trigonometrijskih_funkcija",
-    "difficulty": "EASY",
-    "promptLatex": "Amplituda \\cos x je:",
-    "choicesLatex": [
-      "1",
       "2",
-      "0",
-      "\\text{Nedefinirano}"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": "grafovi_trigonometrijskih_funkcija_003",
-    "categoryId": "grafovi_trigonometrijskih_funkcija",
-    "difficulty": "EASY",
-    "promptLatex": "Graf tan x ima vertikalne asimptote kod:",
-    "choicesLatex": [
-      "x=n\\pi",
-      "x=\\frac{\\pi}{2}+n\\pi",
-      "x=n\\frac{\\pi}{2}",
-      "x=2n\\pi"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": "grafovi_trigonometrijskih_funkcija_004",
-    "categoryId": "grafovi_trigonometrijskih_funkcija",
-    "difficulty": "MEDIUM",
-    "promptLatex": "Vrijednosni skup sin x je:",
-    "choicesLatex": [
-      "[-1,1]",
-      "\\left[0,\\infty\\right)",
-      "\\left(-\\infty,\\infty\\right)",
-      "[0,1]"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": "grafovi_trigonometrijskih_funkcija_005",
-    "categoryId": "grafovi_trigonometrijskih_funkcija",
-    "difficulty": "MEDIUM",
-    "promptLatex": "Vrijednosni skup tan x je:",
-    "choicesLatex": [
-      "[0,1]",
-      "[-1,1]",
-      "\\left(-\\infty,\\infty\\right)",
-      "\\left[0,\\infty\\right)"
+      "\\tfrac{\\pi}{2}",
+      "\\text{odgovor ovisi o konkretnim nultočkama}"
     ],
     "correctIndex": 2
   },
   {
-    "id": "grafovi_trigonometrijskih_funkcija_006",
+    "id": "006",
     "categoryId": "grafovi_trigonometrijskih_funkcija",
-    "difficulty": "HARD",
-    "promptLatex": "Period \\cos\\left(2x\\right) je:",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Neka su }x_1\\text{ i }x_2\\text{ dvije uzastopne nultočke funkcije }A\\sin(\\omega x)\\text{. Ako je }x_2-x_1=1\\text{, onda }\\omega\\text{ iznosi}",
     "choicesLatex": [
       "\\pi",
-      "2\\pi",
-      "4\\pi",
-      "\\frac{\\pi}{2}"
+      "2",
+      "1",
+      "2\\pi"
     ],
     "correctIndex": 0
   },
   {
-    "id": "grafovi_trigonometrijskih_funkcija_007",
+    "id": "007",
     "categoryId": "grafovi_trigonometrijskih_funkcija",
-    "difficulty": "HARD",
-    "promptLatex": "\\text{Fazni pomak }\\sin\\left(x-\\frac{\\pi}{2}\\right)\\text{ je:}",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{U kojoj od sljedećih točaka funkcija }\\sin(3\\pi x-4\\pi)\\text{ poprima lokalni maksimum}",
     "choicesLatex": [
-      "0",
-      "\\frac{\\pi}{2}\\ \\text{udesno}",
-      "\\frac{\\pi}{2}\\ \\text{ulijevo}",
-      "\\pi\\ \\text{udesno}"
+      "\\tfrac{\\pi}{2}",
+      "2",
+      "\\tfrac{3\\pi}{2}",
+      "\\tfrac{3}{2}"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "008",
+    "categoryId": "grafovi_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Neka su }(x_1,3)\\text{ i }(x_2,3)\\text{ dva uzastopna lokalna maksimuma funkcije }3\\sin\\tfrac{x}{2}\\text{. Tada }|x_2-x_1|\\text{ iznosi}",
+    "choicesLatex": [
+      "\\pi",
+      "4\\pi",
+      "\\tfrac{\\pi}{2}",
+      "\\text{odgovor ovisi o konkretnim }x_1, x_2"
     ],
     "correctIndex": 1
+  },
+  {
+    "id": "009",
+    "categoryId": "grafovi_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{U kojoj od sljedećih točaka funkcija }\\sin\\!\\left(2x+\\tfrac{\\pi}{3}\\right)\\text{ poprima lokalni minimum}",
+    "choicesLatex": [
+      "-\\tfrac{5\\pi}{12}",
+      "\\tfrac{5\\pi}{12}",
+      "-\\tfrac{\\pi}{2}",
+      "\\tfrac{\\pi}{2}"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "010",
+    "categoryId": "grafovi_trigonometrijskih_funkcija",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Funkcija }y=\\sin(\\omega x+\\varphi)\\text{ ima dvije uzastopne nultočke }x_0=2\\text{ i }x_1=10\\text{. Ako je }\\varphi\\in\\big[-\\tfrac{\\pi}{2},0\\big]\\text{, onda }\\varphi+\\omega\\text{ iznosi:}",
+    "choicesLatex": [
+      "-\\tfrac{\\pi}{8}",
+      "\\tfrac{\\pi}{8}",
+      "-\\tfrac{\\pi}{4}",
+      "\\tfrac{\\pi}{4}"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "011",
+    "categoryId": "grafovi_trigonometrijskih_funkcija",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Funkcija }y=\\sin(\\omega x+\\varphi)\\text{ ima dva uzastopna lokalna maksimuma u }x_0=\\pi\\text{ i }x_1=3\\pi\\text{. Koja je od sljedećih točaka nultočka funkcije }y\\text{:}",
+    "choicesLatex": [
+      "3\\pi",
+      "\\tfrac{\\pi}{2}",
+      "0",
+      "-\\pi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "012",
+    "categoryId": "grafovi_trigonometrijskih_funkcija",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Funkcija }y=A\\sin(\\omega x+\\varphi)\\text{ ima lokalni maksimum u točki }x_0=0\\text{, a prvi idući lokalni minimum u točki }4\\pi\\text{. Tada vrijedi:}",
+    "choicesLatex": [
+      "\\omega=\\tfrac{\\pi}{4}",
+      "\\varphi=0",
+      "A=1",
+      "y(2\\pi)=0"
+    ],
+    "correctIndex": 3
   }
 ]

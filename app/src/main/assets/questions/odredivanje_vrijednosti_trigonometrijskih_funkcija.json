@@ -1,0 +1,158 @@
+[
+  {
+    "id": "001",
+    "categoryId": "odredivanje_vrijednosti_trigonometrijskih_funkcija",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{0:}",
+    "choicesLatex": [
+      "0.5902",
+      "0.5898",
+      "0.6157",
+      "0.6023"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "002",
+    "categoryId": "odredivanje_vrijednosti_trigonometrijskih_funkcija",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Izračunajte }\\cos\\tfrac{3\\pi}{7}\\text{.}",
+    "choicesLatex": [
+      "0.2225",
+      "0.6235",
+      "-0.2225",
+      "-0.6235"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "003",
+    "categoryId": "odredivanje_vrijednosti_trigonometrijskih_funkcija",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Izračunajte }\\tan\\tfrac{\\pi}{8}\\text{.}",
+    "choicesLatex": [
+      "\\sqrt{2}+1",
+      "\\sqrt{2}-1",
+      "1-\\sqrt{2}",
+      "-\\sqrt{2}-1"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "004",
+    "categoryId": "odredivanje_vrijednosti_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Ako je }\\sin x=-\\tfrac{1}{2}\\text{ i }x\\in\\big[\\pi,\\tfrac{3\\pi}{2}\\big]\\text{, onda }x\\text{ iznosi:}",
+    "choicesLatex": [
+      "\\tfrac{2\\pi}{3}",
+      "\\tfrac{4\\pi}{3}",
+      "\\tfrac{5\\pi}{6}",
+      "\\tfrac{7\\pi}{6}"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "005",
+    "categoryId": "odredivanje_vrijednosti_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Ako je }\\cos x=0.52\\text{ i }x\\in[0,\\pi]\\text{, onda }x\\text{ iznosi (približno, u radijanima):}",
+    "choicesLatex": [
+      "1.047",
+      "1.039",
+      "1.539",
+      "1.024"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "006",
+    "categoryId": "odredivanje_vrijednosti_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Broj rješenja jednadžbe }\\tan x=0.5\\text{ u intervalu }\\left[-\\tfrac{3\\pi}{2},\\tfrac{3\\pi}{2}\\right]\\text{ jednak je:}",
+    "choicesLatex": [
+      "6",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "007",
+    "categoryId": "odredivanje_vrijednosti_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Odredite najmanji pozitivan realni broj }x\\text{ za koji vrijedi }\\sin x=-\\tfrac{\\sqrt{3}}{2}\\text{:}",
+    "choicesLatex": [
+      "\\tfrac{\\pi}{3}",
+      "\\tfrac{2\\pi}{3}",
+      "\\tfrac{4\\pi}{3}",
+      "\\tfrac{5\\pi}{3}"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "008",
+    "categoryId": "odredivanje_vrijednosti_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Odredite najmanji pozitivan realni broj }x\\text{ za koji vrijedi }\\tan x=-0.5\\text{:}",
+    "choicesLatex": [
+      "-\\arctan(0.5)",
+      "\\pi-\\arctan(0.5)",
+      "\\pi+\\arctan(0.5)",
+      "2\\pi-\\arctan(0.5)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "009",
+    "categoryId": "odredivanje_vrijednosti_trigonometrijskih_funkcija",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Zbroj svih realnih brojeva }x\\in[-2\\pi,2\\pi]\\text{ za koje vrijedi }\\left|\\cos\\tfrac{x}{2}\\right|=1\\text{ iznosi:}",
+    "choicesLatex": [
+      "0",
+      "2\\pi",
+      "4\\pi",
+      "6\\pi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "010",
+    "categoryId": "odredivanje_vrijednosti_trigonometrijskih_funkcija",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Ako je }\\cos x=a\\text{, }-1<a<1\\text{ i }x\\in\\left\\langle\\tfrac{\\pi}{2},\\pi\\right\\rangle\\text{, onda je:}",
+    "choicesLatex": [
+      "x=\\pi-\\arccos(a)",
+      "x=\\pi+\\arccos(a)",
+      "x=\\tfrac{\\pi}{2}-\\arccos(a)",
+      "x=\\arccos(a)"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "011",
+    "categoryId": "odredivanje_vrijednosti_trigonometrijskih_funkcija",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Ako je }\\sin x=a\\text{, }-1<a<1\\text{ i }x\\in\\left\\langle\\tfrac{\\pi}{2},\\pi\\right\\rangle\\text{, onda je:}",
+    "choicesLatex": [
+      "x=\\pi-\\arcsin(a)",
+      "x=\\pi+\\arcsin(a)",
+      "x=\\tfrac{\\pi}{2}-\\arcsin(a)",
+      "x=\\arcsin(a)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "012",
+    "categoryId": "odredivanje_vrijednosti_trigonometrijskih_funkcija",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Ako je }\\tan x=a\\text{ i }x\\in\\left\\langle\\tfrac{\\pi}{2},\\pi\\right\\rangle\\text{, onda je:}",
+    "choicesLatex": [
+      "x=\\pi-\\arctan(a)",
+      "x=\\pi+\\arctan(a)",
+      "x=\\tfrac{\\pi}{2}-\\arctan(a)",
+      "x=\\arctan(a)"
+    ],
+    "correctIndex": 1
+  }
+]

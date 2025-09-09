@@ -1,0 +1,236 @@
+[
+  {
+    "id": "001",
+    "categoryId": "adicijske_formule",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Ako je }\\sin x=1\\text{, onda }\\sin\\!\\left(x+\\tfrac{\\pi}{6}\\right)\\text{ iznosi:}",
+    "choicesLatex": [
+      "\\dfrac{1}{2}",
+      "\\dfrac{\\sqrt{3}}{2}",
+      "1",
+      "-\\dfrac{1}{2}"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "002",
+    "categoryId": "adicijske_formule",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Ako je }\\sin x=1\\text{, onda }\\sin(2x)\\text{ iznosi:}",
+    "choicesLatex": [
+      "0",
+      "1",
+      "2",
+      "-1"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "003",
+    "categoryId": "adicijske_formule",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Ako je }\\sin x=\\dfrac{5}{12}\\text{ onda }\\cos(2x)\\text{ iznosi:}",
+    "choicesLatex": [
+      "\\dfrac{47}{144}",
+      "-\\dfrac{47}{144}",
+      "-\\dfrac{47}{72}",
+      "\\dfrac{47}{72}"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "004",
+    "categoryId": "adicijske_formule",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Ako je }\\sin x=0\\text{, onda }\\sin(2x)\\text{ iznosi:}",
+    "choicesLatex": [
+      "0",
+      "1",
+      "2",
+      "-1"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "005",
+    "categoryId": "adicijske_formule",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Izračunajte }\\sin(x+y)\\text{ ako je }\\sin x=\\dfrac{3}{5}\\text{ i }x\\in\\big[0,\\tfrac{\\pi}{2}\\big]\\text{, te }\\cos y=-\\dfrac{4}{5}\\text{ i }y\\in\\big[\\pi,\\tfrac{3\\pi}{2}\\big]\\text{.}",
+    "choicesLatex": [
+      "\\dfrac{12}{25}",
+      "-\\dfrac{24}{25}",
+      "\\dfrac{24}{25}",
+      "-\\dfrac{12}{25}"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "006",
+    "categoryId": "adicijske_formule",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Izračunajte }\\sin(x-y)\\text{ ako je }\\cos x=\\dfrac{3}{5}\\text{ i }x\\in\\big[0,\\tfrac{\\pi}{2}\\big]\\text{, te }\\cos y=-\\dfrac{5}{13}\\text{ i }y\\in\\big[\\tfrac{\\pi}{2},\\pi\\big]\\text{.}",
+    "choicesLatex": [
+      "-\\dfrac{56}{65}",
+      "\\dfrac{33}{65}",
+      "\\dfrac{56}{65}",
+      "-\\dfrac{33}{65}"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "007",
+    "categoryId": "adicijske_formule",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Izračunajte }\\cos(x+y)\\text{ ako je }\\sin x=-\\dfrac{5}{13}\\text{ i }x\\in\\big[\\tfrac{3\\pi}{2},2\\pi\\big]\\text{, te }\\cos y=-\\dfrac{3}{5}\\text{ i }y\\in\\big[\\pi,\\tfrac{3\\pi}{2}\\big]\\text{.}",
+    "choicesLatex": [
+      "\\dfrac{56}{65}",
+      "-\\dfrac{56}{65}",
+      "\\dfrac{33}{65}",
+      "-\\dfrac{33}{65}"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "008",
+    "categoryId": "adicijske_formule",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Ako je }\\sin x=\\dfrac{1}{\\sqrt{3}}\\text{ i }x\\in\\big[0,\\tfrac{\\pi}{2}\\big]\\text{, izračunajte }\\sin(2x)\\text{.}",
+    "choicesLatex": [
+      "\\dfrac{2\\sqrt{2}}{3}",
+      "\\dfrac{2}{\\sqrt{3}}",
+      "\\dfrac{\\sqrt{5}}{3}",
+      "\\dfrac{1}{2}"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "009",
+    "categoryId": "adicijske_formule",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Ako je }\\cos x=\\dfrac{\\sqrt{3}}{2}\\text{ i }x\\in\\left[-\\dfrac{\\pi}{2},0\\right]\\text{, izračunajte }\\sin(2x)\\text{.}",
+    "choicesLatex": [
+      "-\\dfrac{\\sqrt{3}}{2}",
+      "\\dfrac{\\sqrt{3}}{2}",
+      "-\\dfrac{\\sqrt{3}}{4}",
+      "-\\dfrac{3}{4}"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "010",
+    "categoryId": "adicijske_formule",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Ako je }\\cos(\\pi-\\alpha)=\\dfrac{4}{5}\\text{ i }\\sin(\\pi-\\beta)=\\dfrac{5}{13}\\text{, te }\\alpha\\in\\big[\\pi,\\tfrac{3\\pi}{2}\\big]\\text{, }\\beta\\in\\big[0,\\tfrac{\\pi}{2}\\big]\\text{, onda }\\sin(\\alpha+\\beta)\\text{ iznosi:}",
+    "choicesLatex": [
+      "-\\dfrac{33}{65}",
+      "-\\dfrac{56}{65}",
+      "\\dfrac{56}{65}",
+      "\\dfrac{33}{65}"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "011",
+    "categoryId": "adicijske_formule",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Ako je }\\cos\\!\\left(\\dfrac{\\pi}{2}-\\alpha\\right)=\\dfrac{4}{5}\\text{ i }\\sin\\!\\left(\\dfrac{\\pi}{2}-\\beta\\right)=\\dfrac{12}{13}\\text{, te }\\alpha,\\beta\\in\\big[0,\\tfrac{\\pi}{2}\\big]\\text{, onda }\\cos(\\alpha-\\beta)\\text{ iznosi:}",
+    "choicesLatex": [
+      "\\dfrac{33}{65}",
+      "-\\dfrac{56}{65}",
+      "\\dfrac{56}{65}",
+      "-\\dfrac{33}{65}"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "012",
+    "categoryId": "adicijske_formule",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Koliko iznosi }\\sin\\!\\left(\\dfrac{\\pi}{4}+\\alpha\\right)\\text{ ako je }\\sin\\alpha=\\dfrac{21}{29}\\text{ i }\\alpha\\in\\big[0,\\tfrac{\\pi}{2}\\big]\\text{?}",
+    "choicesLatex": [
+      "\\dfrac{4}{29\\sqrt{2}}",
+      "\\dfrac{21}{29\\sqrt{2}}",
+      "\\dfrac{41\\sqrt{2}}{58}",
+      "\\dfrac{50}{29\\sqrt{2}}"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "013",
+    "categoryId": "adicijske_formule",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Koliko iznosi }\\cos\\!\\left(\\dfrac{\\pi}{6}+\\alpha\\right)\\text{ ako je }\\cos\\alpha=-\\dfrac{1}{2}\\text{ i }\\alpha\\in\\big[\\tfrac{\\pi}{2},\\pi\\big]\\text{?}",
+    "choicesLatex": [
+      "-\\dfrac{1}{2}",
+      "\\dfrac{1}{2}",
+      "-\\dfrac{\\sqrt{3}}{2}",
+      "\\dfrac{\\sqrt{3}}{2}"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "014",
+    "categoryId": "adicijske_formule",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Koliko iznosi }\\tan\\!\\left(\\dfrac{2\\pi}{3}+\\alpha\\right)\\text{ ako je }\\cos\\alpha=\\dfrac{1}{2}\\text{ i }\\alpha\\in\\big[\\tfrac{3\\pi}{2},2\\pi\\big]\\text{?}",
+    "choicesLatex": [
+      "\\dfrac{1}{\\sqrt{3}}",
+      "-\\dfrac{1}{\\sqrt{3}}",
+      "\\sqrt{3}",
+      "-\\sqrt{3}"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "015",
+    "categoryId": "adicijske_formule",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Neka je }\\sin x=\\dfrac{7}{25}\\text{, }\\sin y=\\dfrac{24}{25}\\text{, te }x,y\\in\\left(0,\\dfrac{\\pi}{2}\\right)\\text{. Tada }x+y\\text{ iznosi:}",
+    "choicesLatex": [
+      "\\dfrac{\\pi}{3}",
+      "\\dfrac{\\pi}{2}",
+      "\\pi",
+      "\\dfrac{2\\pi}{3}"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "016",
+    "categoryId": "adicijske_formule",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Ako je }\\sin(x+y)=\\dfrac{1}{4}\\text{ i }\\sin(x-y)=\\dfrac{1}{2}\\text{, onda }\\tan x\\cot y\\text{ iznosi:}",
+    "choicesLatex": [
+      "-3",
+      "6",
+      "0",
+      "-2"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "017",
+    "categoryId": "adicijske_formule",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Ako je }\\sin x+\\cos y=1\\text{, }\\sin x-\\cos y=\\dfrac{1}{2}\\text{ i }x,y\\in\\big[0,\\tfrac{\\pi}{2}\\big]\\text{ tada }\\sin(x+y)\\text{ iznosi:}",
+    "choicesLatex": [
+      "\\dfrac{3-\\sqrt{105}}{16}",
+      "\\dfrac{1}{2}",
+      "\\dfrac{3+\\sqrt{105}}{16}",
+      "0"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "018",
+    "categoryId": "adicijske_formule",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Ako je }\\cos(x+y)=\\dfrac{3}{5}\\text{ i }\\cos(x-y)=-\\dfrac{4}{5}\\text{, tada }\\tan x\\cdot\\tan y\\text{ iznosi:}",
+    "choicesLatex": [
+      "-\\dfrac{7}{5}",
+      "-\\dfrac{7}{1}",
+      "\\dfrac{7}{5}",
+      "7"
+    ],
+    "correctIndex": 3
+  }
+]

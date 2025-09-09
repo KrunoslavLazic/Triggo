@@ -6,7 +6,6 @@ import kotlinx.serialization.json.Json
 import kotlin.random.Random
 
 class QuizRepository(private val context: Context) {
-
     private val json = Json { ignoreUnknownKeys = true }
     private val questionsCache = mutableMapOf<String, List<QuizQuestion>>()
 
@@ -32,7 +31,6 @@ class QuizRepository(private val context: Context) {
         return pool.take(size).map { it.shuffledChoices(random) }
     }
 }
-
 private fun QuizQuestion.shuffledChoices(random: Random): QuizQuestion {
     val order = choicesLatex.indices.shuffled(random)
     val newChoices = order.map { choicesLatex[it] }

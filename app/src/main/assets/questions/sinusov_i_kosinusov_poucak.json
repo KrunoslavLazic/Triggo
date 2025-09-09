@@ -1,0 +1,184 @@
+[
+  {
+    "id": "001",
+    "categoryId": "sinusov_i_kosinusov_poucak",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Izračunajte duljinu najdulje stranice ako je }a=15\\text{, }\\alpha=21^{\\circ}\\text{, }\\beta=36^{\\circ}",
+    "choicesLatex": [
+      "35.1",
+      "36.1",
+      "37.1",
+      "38.1"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "002",
+    "categoryId": "sinusov_i_kosinusov_poucak",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Izračunajte opseg ako je }a=8\\text{, }\\alpha=15^{\\circ}\\text{, }\\gamma=56^{\\circ}",
+    "choicesLatex": [
+      "56.84",
+      "78.12",
+      "86.12",
+      "62.84"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "003",
+    "categoryId": "sinusov_i_kosinusov_poucak",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Izračunajte }c\\text{, ako je }a=6\\text{, }b=8\\text{ i }\\gamma=55^{\\circ}",
+    "choicesLatex": [
+      "7.2",
+      "6.2",
+      "7.7",
+      "6.7"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "004",
+    "categoryId": "sinusov_i_kosinusov_poucak",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Izračunajte }\\gamma\\text{, ako je }a=6\\text{, }b=8\\text{ i }c=10",
+    "choicesLatex": [
+      "35^{\\circ}",
+      "90^{\\circ}",
+      "45^{\\circ}",
+      "62^{\\circ}"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "005",
+    "categoryId": "sinusov_i_kosinusov_poucak",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Izračunajte duljinu treće stranice ako je }a=22\\text{, }b=14\\text{, }\\alpha=66^{\\circ}\\text{.}",
+    "choicesLatex": [
+      "23.65",
+      "33.65",
+      "13.65",
+      "28.65"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "006",
+    "categoryId": "sinusov_i_kosinusov_poucak",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Izračunajte duljinu treće stranice ako je }a=21\\text{, }c=15\\text{, }\\gamma=36^{\\circ}\\text{ i kut }\\alpha\\text{ tup.}",
+    "choicesLatex": [
+      "\\gamma=120^{\\circ}",
+      "10.03",
+      "8.47",
+      "9.65"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "007",
+    "categoryId": "sinusov_i_kosinusov_poucak",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Ako je }\\tfrac{a}{b}=\\tfrac{\\cos\\alpha}{\\cos\\beta}\\text{, onda je}",
+    "choicesLatex": [
+      "\\gamma=120^{\\circ}",
+      "\\alpha=\\beta",
+      "\\alpha+\\beta=120^{\\circ}",
+      "\\text{ništa od navedenog}"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "008",
+    "categoryId": "sinusov_i_kosinusov_poucak",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Ako je }\\alpha{:}\\beta{:}\\gamma=1{:}2{:}3\\text{, koliko je }b{:}a",
+    "choicesLatex": [
+      "1",
+      "\\sqrt{2}",
+      "\\sqrt{3}",
+      "2"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "009",
+    "categoryId": "sinusov_i_kosinusov_poucak",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Ako je }\\alpha{:}\\beta{:}\\gamma=2{:}3{:}4\\text{, a opseg trokuta }120\\text{, koliko je }c",
+    "choicesLatex": [
+      "47.4",
+      "57.4",
+      "40.6",
+      "50.6"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "010",
+    "categoryId": "sinusov_i_kosinusov_poucak",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Ako je }c^{2}<a^{2}+b^{2}\\text{, onda je}",
+    "choicesLatex": [
+      "\\gamma=90^{\\circ}",
+      "\\gamma\\ \\text{šiljast}",
+      "\\gamma\\ \\text{tup}",
+      "\\text{ništa od navedenog}"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "011",
+    "categoryId": "sinusov_i_kosinusov_poucak",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Ako je }a{:}b{:}c=2{:}3{:}4\\text{, koliki je najveći kut u trokutu}",
+    "choicesLatex": [
+      "104.5^{\\circ}",
+      "90.5^{\\circ}",
+      "124.5^{\\circ}",
+      "114.5^{\\circ}"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "012",
+    "categoryId": "sinusov_i_kosinusov_poucak",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Ako je }a=50\\text{, }b=60\\text{ i }\\beta=2\\alpha\\text{, onda je }c\\approx",
+    "choicesLatex": [
+      "18",
+      "24",
+      "22",
+      "14"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "013",
+    "categoryId": "sinusov_i_kosinusov_poucak",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Ako je }a=10.6\\text{, }b=12\\text{ i }v_{b}=8.4\\text{, i }\\gamma\\text{ šiljast, onda je }c=",
+    "choicesLatex": [
+      "11.04",
+      "12.06",
+      "10.06",
+      "9.04"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "014",
+    "categoryId": "sinusov_i_kosinusov_poucak",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Ako je }a{:}b=5{:}6\\text{ i }\\beta=2\\alpha\\text{, onda je }\\gamma=",
+    "choicesLatex": [
+      "32.51^{\\circ}",
+      "42.51^{\\circ}",
+      "20.61^{\\circ}",
+      "52.61^{\\circ}"
+    ],
+    "correctIndex": 2
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "001",
+    "categoryId": "osnovni_trigonometrijski_identiteti",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Pojednostavljenjem izraza }\\dfrac{\\sin^{2} x-1}{\\cos^{2} x}\\text{ (pri čemu uzimamo }\\cos x\\neq 0\\text{) dobiva se}",
+    "choicesLatex": [
+      "\\cos x",
+      "\\sin x",
+      "1",
+      "-1"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "002",
+    "categoryId": "osnovni_trigonometrijski_identiteti",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Pojednostavljenjem izraza }(1-\\sin(2x))\\,(1+\\sin(2x))\\text{ dobiva se}",
+    "choicesLatex": [
+      "\\cos^{2} x",
+      "\\sin^{2} x",
+      "\\cos^{2}(2x)",
+      "\\sin^{2}(2x)"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "003",
+    "categoryId": "osnovni_trigonometrijski_identiteti",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Pojednostavljenjem izraza }\\cos^{3} x\\cdot(1+\\tan^{2} x)\\text{ (pri čemu uzimamo }\\cos x\\neq 0\\text{) dobiva se}",
+    "choicesLatex": [
+      "\\cos x",
+      "\\cot x",
+      "\\tan x",
+      "\\sin x"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "004",
+    "categoryId": "osnovni_trigonometrijski_identiteti",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Za }x\\text{ za koje je }\\sin x\\neq 0\\text{, izraz }\\dfrac{1+\\cos x}{\\sin x}\\text{ poprima iste vrijednosti kao i izraz}",
+    "choicesLatex": [
+      "\\dfrac{\\sin x}{1-\\cos x}",
+      "1+\\tan x",
+      "\\tan x",
+      "\\sin^{2} x"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "005",
+    "categoryId": "osnovni_trigonometrijski_identiteti",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Za }x\\text{ za koje je }\\sin x\\cos x\\neq 0\\text{, izraz }\\dfrac{\\sin^{2} x-\\cos^{2} x}{\\sin x\\cdot\\cos x}\\text{ poprima iste vrijednosti kao i izraz}",
+    "choicesLatex": [
+      "\\tan x-1",
+      "1-\\cot x",
+      "\\tan x-\\cot x",
+      "\\cot x"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "006",
+    "categoryId": "osnovni_trigonometrijski_identiteti",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Za }x\\text{ za koje je }\\sin x\\neq \\pm 1\\text{, izraz }\\dfrac{1}{1+\\sin x}+\\dfrac{1}{1-\\sin x}\\text{ poprima iste vrijednosti kao i izraz}",
+    "choicesLatex": [
+      "2\\tan^{2} x",
+      "2-\\cos^{2} x",
+      "\\dfrac{2}{\\cos^{2} x}",
+      "\\dfrac{2}{\\sin x}"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "007",
+    "categoryId": "osnovni_trigonometrijski_identiteti",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Ako je }\\sin x=t\\text{ i }x\\in\\big[0,\\tfrac{\\pi}{2}\\big]\\text{, onda je }\\cos x\\text{ jednak}",
+    "choicesLatex": [
+      "\\sqrt{1-t^{2}}",
+      "-\\sqrt{1-t^{2}}",
+      "\\sqrt{+-t^{2}}",
+      "-\\sqrt{1+t^{2}}"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "008",
+    "categoryId": "osnovni_trigonometrijski_identiteti",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Ako je }\\sin x=t\\text{ i }x\\in\\big[\\tfrac{\\pi}{2},\\pi\\big]\\text{, onda je }\\cos x\\text{ jednak}",
+    "choicesLatex": [
+      "\\sqrt{1-t^{2}}",
+      "-\\sqrt{1-t^{2}}",
+      "\\sqrt{+-t^{2}}",
+      "-\\sqrt{1+t^{2}}"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "009",
+    "categoryId": "osnovni_trigonometrijski_identiteti",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Ako je }\\cos x=t\\text{ i }x\\in\\big[\\tfrac{\\pi}{2},\\pi\\big]\\text{, onda je }\\sin x\\text{ jednak}",
+    "choicesLatex": [
+      "\\sqrt{1-t^{2}}",
+      "-\\sqrt{1-t^{2}}",
+      "\\sqrt{+-t^{2}}",
+      "-\\sqrt{1+t^{2}}"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "010",
+    "categoryId": "osnovni_trigonometrijski_identiteti",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Ako je }\\cos x=t\\text{ i }x\\in\\big(0,\\tfrac{\\pi}{2}\\big)\\text{, onda je }\\tan x\\text{ jednak}",
+    "choicesLatex": [
+      "\\dfrac{\\sqrt{1-t^{2}}}{t}",
+      "\\dfrac{-\\sqrt{1-t^{2}}}{t}",
+      "\\dfrac{\\sqrt{1+t^{2}}}{t}",
+      "\\dfrac{-\\sqrt{1+t^{2}}}{t}"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "011",
+    "categoryId": "osnovni_trigonometrijski_identiteti",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Ako je }\\cos x=t\\text{ i }x\\in\\big(\\pi,\\tfrac{3\\pi}{2}\\big)\\text{, onda je }\\tan x\\text{ jednak}",
+    "choicesLatex": [
+      "\\dfrac{\\sqrt{1-t^{2}}}{t}",
+      "\\dfrac{-\\sqrt{1-t^{2}}}{t}",
+      "\\dfrac{\\sqrt{1+t^{2}}}{t}",
+      "\\dfrac{-\\sqrt{1+t^{2}}}{t}"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "012",
+    "categoryId": "osnovni_trigonometrijski_identiteti",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Ako je }\\sin x+\\cos x=t\\text{, onda }\\sin x\\cdot\\cos x\\text{ iznosi}",
+    "choicesLatex": [
+      "\\dfrac{t-1}{2}",
+      "\\dfrac{t+1}{2}",
+      "\\dfrac{t^{2}-1}{2}",
+      "\\dfrac{t^{2}+1}{2}"
+    ],
+    "correctIndex": 2
+  }
+]

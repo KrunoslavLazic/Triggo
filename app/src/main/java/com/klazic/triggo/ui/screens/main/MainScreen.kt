@@ -38,11 +38,9 @@ fun MainRoute(
     onSettingsClick: () -> Unit = {},
     onCategoryClick: (String, Difficulty) -> Unit = { _, _ -> }
 ) {
-
     val context = LocalContext.current
     val repo = LocalQuizRepository.current
     val store = LocalProgressStore.current
-
     val vm: MainViewModel = viewModel(
         factory = MainViewModelFactory(
             prefs = UserPrefs(context),
@@ -54,9 +52,7 @@ fun MainRoute(
     val header by vm.header.collectAsStateWithLifecycle()
     val ui by vm.ui.collectAsStateWithLifecycle()
     val progress by vm.globalProgress.collectAsStateWithLifecycle()
-
     val avatarRes = AvatarAssets.at(header.avatarIndex)
-
 
     MainScreen(
         name = header.name,
@@ -78,47 +74,34 @@ private fun MainScreen(
     onSettingsClick: () -> Unit,
     onCategoryClick: (String, Difficulty) -> Unit
 ) {
-
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
     Scaffold(
-        modifier = Modifier
-            .nestedScroll(scrollBehavior.nestedScrollConnection),
+        modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
         topBar = {
             MainTopBar(
                 name = name,
                 avatarRes = avatarRes,
                 onSettingsClick = onSettingsClick,
-                scrollBehavior = scrollBehavior
-            )
-        },
+                scrollBehavior = scrollBehavior) },
         containerColor = MaterialTheme.colorScheme.background
     ) { padding ->
-        Column(
-            modifier = Modifier
+        Column(modifier = Modifier
                 .padding(padding)
                 .fillMaxSize()
                 .background(
-                    Brush.verticalGradient(
-                        listOf(
+                    Brush.verticalGradient(listOf(
                             MaterialTheme.colorScheme.secondaryContainer,
-                            MaterialTheme.colorScheme.background
-                        )
-                    )
-                )
+                            MaterialTheme.colorScheme.background)))
                 .padding(horizontal = 16.dp, vertical = 12.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
             GlobalProgressHeader(progress)
-
             Text(stringResource(R.string.lessons), style = MaterialTheme.typography.titleMedium)
-
             Box(modifier = Modifier.weight(1f)) {
                 CategoryGrid(
                     items = ui.categories,
                     onClick = onCategoryClick,
-                    continueTarget = ui.continueTarget
-                )
-
+                    continueTarget = ui.continueTarget)
             }
         }
     }

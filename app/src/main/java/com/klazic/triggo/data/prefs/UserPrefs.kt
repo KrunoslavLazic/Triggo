@@ -24,7 +24,6 @@ private object PrefKey {
     val LANGUAGE = stringPreferencesKey("language")
 
 }
-
 class UserPrefs(private val context: Context) {
 
     val name = context.dataStore.data.map { it[PrefKey.USER_NAME] ?: "" }

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "001",
+    "categoryId": "trigonometrija_pravokutnog_trokuta",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Izračunajte }\\sin\\alpha\\text{ ako su duljine kateta }a=3\\text{, }b=4",
+    "choicesLatex": [
+      "\\tfrac{4}{5}",
+      "\\tfrac{3}{5}",
+      "\\tfrac{5}{4}",
+      "\\tfrac{3}{4}"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "002",
+    "categoryId": "trigonometrija_pravokutnog_trokuta",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Izračunajte }\\cos\\alpha\\text{ ako su duljine kateta }a=12\\text{, }b=5",
+    "choicesLatex": [
+      "\\tfrac{12}{13}",
+      "\\tfrac{5}{13}",
+      "\\tfrac{12}{5}",
+      "\\tfrac{5}{12}"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "003",
+    "categoryId": "trigonometrija_pravokutnog_trokuta",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Izračunajte }\\tan\\alpha\\text{ ako su duljine hipotenuze }c=29\\text{ i katete }b=21",
+    "choicesLatex": [
+      "\\tfrac{21}{20}",
+      "\\tfrac{29}{21}",
+      "\\tfrac{20}{29}",
+      "\\tfrac{20}{21}"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "004",
+    "categoryId": "trigonometrija_pravokutnog_trokuta",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Izračunajte duljinu kraće katete ako je }c=13\\text{ i }\\sin\\alpha=\\tfrac{5}{13}",
+    "choicesLatex": [
+      "4",
+      "5",
+      "12",
+      "13"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "005",
+    "categoryId": "trigonometrija_pravokutnog_trokuta",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Duljina jedne katete je }16\\text{, a kosinus kuta nasuprot nje je }\\tfrac{4}{5}\\text{. Odredite opseg trokuta.}",
+    "choicesLatex": [
+      "48",
+      "65",
+      "68",
+      "70"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "006",
+    "categoryId": "trigonometrija_pravokutnog_trokuta",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Duljina jedne katete je }a=10\\text{, a tangens kuta nasuprot nje iznosi }\\tfrac{4}{3}\\text{. Odredite površinu trokuta.}",
+    "choicesLatex": [
+      "30",
+      "32",
+      "37.5",
+      "40"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "007",
+    "categoryId": "trigonometrija_pravokutnog_trokuta",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Duljina jedne katete je }a=6\\text{, a visina na hipotenuzu }v_c=4.8\\text{. Odredite duljinu hipotenuze.}",
+    "choicesLatex": [
+      "8",
+      "10",
+      "12",
+      "9"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "008",
+    "categoryId": "trigonometrija_pravokutnog_trokuta",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Koliki je opseg pravokutnog trokuta u kojem je duljina hipotenuze }c=123\\text{, a kotangens jednog kuta }\\tfrac{9}{40}\\text{?}",
+    "choicesLatex": [
+      "270",
+      "260",
+      "265",
+      "275"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "009",
+    "categoryId": "trigonometrija_pravokutnog_trokuta",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Površina pravokutnog trokuta je }S=24\\text{, a visina na hipotenuzu je }h_c=4.8\\text{. Odredite duljinu kraće katete.}",
+    "choicesLatex": [
+      "6",
+      "8",
+      "10",
+      "4"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "010",
+    "categoryId": "trigonometrija_pravokutnog_trokuta",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Površina pravokutnog trokuta je }S=30\\text{, a duljina hipotenuze }c=13\\text{. Odredite kut nasuprot kraće katete.}",
+    "choicesLatex": [
+      "22.62^{\\circ}",
+      "30^{\\circ}",
+      "36.87^{\\circ}",
+      "45^{\\circ}"
+    ],
+    "correctIndex": 0
+  }
+]

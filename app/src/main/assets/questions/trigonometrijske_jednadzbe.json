@@ -1,79 +1,183 @@
 [
   {
-    "id": "trigonometrijske_jednadzbe_001",
+    "id": "001",
     "categoryId": "trigonometrijske_jednadzbe",
     "difficulty": "EASY",
-    "promptLatex": "Riješi: \\sin x = 0",
+    "promptLatex": "\\text{Zbroj rješenja jednadžbe }2\\cos x-1=0\\text{ u intervalu }[0,2\\pi]\\text{ iznosi}",
     "choicesLatex": [
-      "x=n\\pi",
-      "x=\\frac{\\pi}{2}+n\\pi",
-      "x=2n\\pi",
-      "x=\\frac{\\pi}{4}+n\\pi"
+      "\\tfrac{\\pi}{3}",
+      "\\pi",
+      "2\\pi",
+      "\\tfrac{2\\pi}{3}"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
-    "id": "trigonometrijske_jednadzbe_002",
+    "id": "002",
     "categoryId": "trigonometrijske_jednadzbe",
     "difficulty": "EASY",
-    "promptLatex": "Riješi: \\cos x = 0",
+    "promptLatex": "\\text{Zbroj rješenja jednadžbe }2\\sin x+\\sqrt{3}=0\\text{ u intervalu }[0,2\\pi]\\text{ iznosi}",
     "choicesLatex": [
-      "x=n\\pi",
-      "x=\\frac{\\pi}{2}+n\\pi",
-      "x=2n\\pi",
-      "x=\\frac{\\pi}{4}+n\\pi"
+      "\\pi",
+      "2\\pi",
+      "3\\pi",
+      "4\\pi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "003",
+    "categoryId": "trigonometrijske_jednadzbe",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Rješenje jednadžbe }\\tan x-\\sqrt{3}=0\\text{ u intervalu }[0,\\pi]\\text{ je}",
+    "choicesLatex": [
+      "\\tfrac{\\pi}{6}",
+      "\\tfrac{\\pi}{3}",
+      "0",
+      "\\tfrac{2\\pi}{3}"
     ],
     "correctIndex": 1
   },
   {
-    "id": "trigonometrijske_jednadzbe_003",
+    "id": "004",
+    "categoryId": "trigonometrijske_jednadzbe",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Rješenje jednadžbe }\\sqrt{3}\\tan x+1=0\\text{ u intervalu }[0,\\pi]\\text{ je}",
+    "choicesLatex": [
+      "\\tfrac{\\pi}{6}",
+      "\\tfrac{\\pi}{3}",
+      "\\tfrac{5\\pi}{3}",
+      "\\tfrac{5\\pi}{6}"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "005",
     "categoryId": "trigonometrijske_jednadzbe",
     "difficulty": "MEDIUM",
-    "promptLatex": "Riješi: \\tan x = 0.",
+    "promptLatex": "\\text{Broj rješenja jednadžbe }\\tan x=\\cot x\\text{ u intervalu }[0,2\\pi]\\text{ iznosi:}",
     "choicesLatex": [
-      "x=n\\pi",
-      "x=\\frac{\\pi}{2}+n\\pi",
-      "x=\\frac{\\pi}{4}+n\\pi",
-      "x=2n\\pi"
+      "1",
+      "2",
+      "3",
+      "4"
     ],
-    "correctIndex": 0
+    "correctIndex": 3
   },
   {
-    "id": "trigonometrijske_jednadzbe_004",
+    "id": "006",
     "categoryId": "trigonometrijske_jednadzbe",
     "difficulty": "MEDIUM",
-    "promptLatex": "Riješi: \\sin x = 1.",
+    "promptLatex": "\\text{Zbroj rješenja jednadžbe }2\\cos^{2}x-\\cos x-1=0\\text{ u intervalu }[0,2\\pi]\\text{ iznosi}",
     "choicesLatex": [
-      "x=\\frac{\\pi}{2}+2n\\pi",
-      "x=\\pi+2n\\pi",
-      "x=0+2n\\pi",
-      "x=\\frac{3\\pi}{2}+2n\\pi"
+      "4\\pi",
+      "3\\pi",
+      "2\\pi",
+      "\\pi"
     ],
     "correctIndex": 0
   },
   {
-    "id": "trigonometrijske_jednadzbe_005",
+    "id": "007",
     "categoryId": "trigonometrijske_jednadzbe",
-    "difficulty": "HARD",
-    "promptLatex": "Riješi: \\cos x = \\frac{1}{2}.",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Zbroj rješenja jednadžbe }3\\cos^{2}(x/2)-2\\sin(x/2)+2=0\\text{ u intervalu }[0,2\\pi]\\text{ iznosi}",
     "choicesLatex": [
-      "x=\\frac{\\pi}{3}+2n\\pi,\\ \\frac{5\\pi}{3}+2n\\pi",
-      "x=\\frac{\\pi}{4}+n\\pi",
-      "x=\\frac{\\pi}{6}+2n\\pi",
-      "x=\\frac{\\pi}{2}+n\\pi"
+      "\\pi",
+      "3\\pi",
+      "\\tfrac{4\\pi}{3}",
+      "\\tfrac{2\\pi}{3}"
     ],
     "correctIndex": 0
   },
   {
-    "id": "trigonometrijske_jednadzbe_006",
+    "id": "008",
+    "categoryId": "trigonometrijske_jednadzbe",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Zbroj rješenja jednadžbe }2\\sin^{2}x-\\sin x-1=0\\text{ u intervalu }[0,2\\pi]\\text{ iznosi}",
+    "choicesLatex": [
+      "\\tfrac{3\\pi}{2}",
+      "\\tfrac{5\\pi}{2}",
+      "\\tfrac{7\\pi}{2}",
+      "\\tfrac{9\\pi}{2}"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "009",
+    "categoryId": "trigonometrijske_jednadzbe",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Zbroj rješenja jednadžbe }\\tan x+\\cot x-4=0\\text{ u intervalu }[0,2\\pi]\\text{ iznosi}",
+    "choicesLatex": [
+      "\\tfrac{3\\pi}{2}",
+      "3\\pi",
+      "\\tfrac{\\pi}{2}",
+      "0"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "010",
+    "categoryId": "trigonometrijske_jednadzbe",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Broj rješenja jednadžbe }\\sin^{4}x-\\cos^{4}x=\\tfrac{1}{2}\\text{ u intervalu }[0,2\\pi]\\text{ iznosi:}",
+    "choicesLatex": [
+      "4",
+      "6",
+      "2",
+      "0"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "011",
     "categoryId": "trigonometrijske_jednadzbe",
     "difficulty": "HARD",
-    "promptLatex": "Riješi: \\tan x = \\sqrt{3}.",
+    "promptLatex": "\\text{Zbroj rješenja jednadžbe }\\sin x-\\cos x=1\\text{ u intervalu }[0,2\\pi]\\text{ iznosi}",
     "choicesLatex": [
-      "x=\\frac{\\pi}{6}+n\\pi",
-      "x=\\frac{\\pi}{3}+n\\pi",
-      "x=\\frac{\\pi}{4}+n\\pi",
-      "x=\\frac{\\pi}{2}+n\\pi"
+      "3\\pi",
+      "\\tfrac{3\\pi}{2}",
+      "\\tfrac{\\pi}{2}",
+      "0"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "012",
+    "categoryId": "trigonometrijske_jednadzbe",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Zbroj rješenja jednadžbe }\\sin^{2} x-6\\sin x\\cos x+5\\cos^{2}x=0\\text{ u intervalu }[0,2\\pi]\\text{ iznosi}",
+    "choicesLatex": [
+      "2\\arctan 5+\\tfrac{5\\pi}{2}",
+      "2\\arctan 3+\\tfrac{3\\pi}{2}",
+      "2\\arctan 5-\\tfrac{5\\pi}{2}",
+      "2\\arctan 3-\\tfrac{3\\pi}{2}"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "013",
+    "categoryId": "trigonometrijske_jednadzbe",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Broj rješenja jednadžbe }\\sin^{4}x+\\cos^{4}x=\\tfrac{3}{4}\\text{ u intervalu }[0,2\\pi]\\text{ iznosi}",
+    "choicesLatex": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "014",
+    "categoryId": "trigonometrijske_jednadzbe",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Zbroj rješenja jednadžbe }\\sqrt{3}\\sin x-\\cos x=1\\text{ u intervalu }[0,2\\pi]\\text{ iznosi}",
+    "choicesLatex": [
+      "\\tfrac{3\\pi}{2}",
+      "\\tfrac{4\\pi}{3}",
+      "\\tfrac{5\\pi}{2}",
+      "1"
     ],
     "correctIndex": 1
   }

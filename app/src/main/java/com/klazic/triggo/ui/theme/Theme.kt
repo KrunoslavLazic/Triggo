@@ -17,7 +17,6 @@ val OrangeAccent = Color(0xFFF5B86B)
 val OrangeAccentContainer = Color(0xFFFFE0B2)
 val BlueTertiary = Color(0xFF3656E3)
 
-
 val TrigoLightColors = lightColorScheme(
     primary = GreenPrimary,
     onPrimary = Color(0xFFFFFFFF),
@@ -35,7 +34,6 @@ val TrigoLightColors = lightColorScheme(
     onTertiaryContainer = Color(0xFF00164D),
 
     background = Color(0xFFFEFBF6),
-    //background = Color(0xFF1FA37B),
     onBackground = Color(0xFF1D1B1E),
     surface = Color(0xFFFFFBFF),
     onSurface = Color(0xFF1D1B1E),

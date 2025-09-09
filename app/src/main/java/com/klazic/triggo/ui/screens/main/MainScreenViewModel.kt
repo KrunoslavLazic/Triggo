@@ -31,10 +31,7 @@ class MainViewModel(
 
     private val lessons = LessonAssets.allLessons
 
-    val header: StateFlow<MainUiState> = combine(
-        prefs.name,
-        prefs.avatar
-    ) { name, avatarIdx ->
+    val header: StateFlow<MainUiState> = combine(prefs.name, prefs.avatar) { name, avatarIdx ->
         MainUiState(
             name = name,
             avatarIndex = avatarIdx
@@ -44,7 +41,6 @@ class MainViewModel(
         SharingStarted.WhileSubscribed(5_000),
         MainUiState()
     )
-
     private val categories: StateFlow<List<MainContract.CategoryUi>> =
         flow {
             val list = lessons.map {
@@ -61,19 +57,16 @@ class MainViewModel(
 
     private val totalQuestions: Int =
         lessons.sumOf { repo.countsByDifficulty(it.id).values.sum() }
-
     private val totalSolvedFlow: Flow<Int> =
         combine(
             lessons.flatMap {
                 Difficulty.entries.map { d -> store.solvedCountFlow(it.id, d) }
-
             }
         ){ arr -> arr.sum() }
     val globalProgress: StateFlow<Progress> =
         totalSolvedFlow.map {
             Progress(totalQuestions,it, bestScorePct = 0)
         }.stateIn(viewModelScope, SharingStarted.Eagerly, Progress())
-
 
     private val continueTarget: StateFlow<MainContract.ContinueTarget?> =
         combine(

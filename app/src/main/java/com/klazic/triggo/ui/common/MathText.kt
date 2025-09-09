@@ -15,19 +15,14 @@ fun MathText(latex: String, modifier: Modifier = Modifier, displayMode: Boolean 
         factory = { context ->
             WebView(context).apply {
                 settings.javaScriptEnabled = true
-                settings.cacheMode = WebSettings.LOAD_DEFAULT
-            }
-        },
+                settings.cacheMode = WebSettings.LOAD_DEFAULT } },
         update = { web ->
             val wrapped = if (displayMode) "$$ $latex $$" else "\\( $latex \\)"
-
             fun escapeHtml(s: String) = s
                 .replace("&", "&amp;")
                 .replace("<", "&lt;")
                 .replace(">", "&gt;")
-
             val body = escapeHtml(wrapped)
-
             val html = """
                 <!doctype html>
                 <html>
@@ -58,14 +53,12 @@ fun MathText(latex: String, modifier: Modifier = Modifier, displayMode: Boolean 
                   </body>
                 </html>
             """.trimIndent()
-
             web.loadDataWithBaseURL(
                  null,
                  html,
                  "text/html",
                  "utf-8",
-                 null
-            )
+                 null)
         }
     )
 }

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "001",
+    "categoryId": "trigonometrijske_nejednadzbe",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Rješenje nejednadžbe }\\sin x\\leq -\\tfrac{1}{\\sqrt{2}}\\text{ u intervalu }[0,2\\pi]\\text{ je skup}",
+    "choicesLatex": [
+      "[0,\\tfrac{\\pi}{4}]",
+      "[\\tfrac{\\pi}{4},\\tfrac{3\\pi}{4}]",
+      "[\\tfrac{5\\pi}{4},\\tfrac{7\\pi}{4}]",
+      "[\\tfrac{7\\pi}{4},2\\pi]"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "002",
+    "categoryId": "trigonometrijske_nejednadzbe",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Rješenje nejednadžbe }\\sin x\\geq \\tfrac{1}{2}\\text{ u intervalu }[0,2\\pi]\\text{ je skup}",
+    "choicesLatex": [
+      "[0,\\tfrac{\\pi}{6}]",
+      "[\\tfrac{\\pi}{6},\\tfrac{5\\pi}{6}]",
+      "[\\tfrac{5\\pi}{6},\\pi]",
+      "[\\tfrac{3\\pi}{2},2\\pi]"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "003",
+    "categoryId": "trigonometrijske_nejednadzbe",
+    "difficulty": "EASY",
+    "promptLatex": "\\text{Rješenje nejednadžbe }\\cos x\\geq \\tfrac{1}{2}\\text{ u intervalu }[0,2\\pi]\\text{ je skup}",
+    "choicesLatex": [
+      "[0,\\tfrac{\\pi}{3}]\\,\\cup\\,[\\tfrac{5\\pi}{3},2\\pi]",
+      "[\\tfrac{\\pi}{3},\\tfrac{2\\pi}{3}]",
+      "[\\pi,\\tfrac{4\\pi}{3}]\\,\\cup\\,[\\tfrac{5\\pi}{3},2\\pi]",
+      "[\\tfrac{\\pi}{2},\\tfrac{5\\pi}{3}]"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "004",
+    "categoryId": "trigonometrijske_nejednadzbe",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Rješenje nejednadžbe }\\tan x\\geq \\tfrac{1}{\\sqrt{3}}\\text{ u intervalu }[0,2\\pi]\\text{ je skup}",
+    "choicesLatex": [
+      "[\\tfrac{7\\pi}{6},\\tfrac{3\\pi}{2})\\,\\cup\\,(\\tfrac{3\\pi}{2},2\\pi]",
+      "[\\tfrac{\\pi}{6},\\tfrac{7\\pi}{6}]",
+      "[\\tfrac{2\\pi}{3},\\pi]",
+      "[\\tfrac{\\pi}{6},\\tfrac{\\pi}{2})\\,\\cup\\,[\\tfrac{7\\pi}{6},\\tfrac{3\\pi}{2})"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "005",
+    "categoryId": "trigonometrijske_nejednadzbe",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Rješenje nejednadžbe }\\cos\\!\\left(2x+\\tfrac{\\pi}{3}\\right)\\ge \\tfrac{\\sqrt{3}}{2}\\text{ u intervalu }[\\pi,2\\pi]\\text{ je skup}",
+    "choicesLatex": [
+      "[\\tfrac{7\\pi}{4},\\tfrac{23\\pi}{12}]",
+      "[\\pi,\\tfrac{11\\pi}{12}]",
+      "[\\tfrac{3\\pi}{4},\\pi]",
+      "[\\tfrac{3\\pi}{4},\\tfrac{11\\pi}{12}]"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "006",
+    "categoryId": "trigonometrijske_nejednadzbe",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Rješenje nejednadžbe }2\\sin\\tfrac{x-\\pi}{2}\\le \\sqrt{3}\\text{ u intervalu }[0,2\\pi]\\text{ je skup}",
+    "choicesLatex": [
+      "[\\tfrac{\\pi}{3},\\pi]",
+      "[\\tfrac{7\\pi}{4},\\tfrac{23\\pi}{12}]",
+      "[0,\\tfrac{5\\pi}{3}]",
+      "[\\tfrac{5\\pi}{3},2\\pi]"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "007",
+    "categoryId": "trigonometrijske_nejednadzbe",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Rješenje nejednadžbe }\\sin(x-1)\\ge 0.8\\text{ u intervalu }[0,2\\pi]\\text{ je skup (uz }\\pi\\approx 3.14\\text{)}",
+    "choicesLatex": [
+      "[1.927,\\,3.214]",
+      "[0.927,\\,2.214]",
+      "[3.214,\\,4.5]",
+      "[0,\\,1.927]"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "008",
+    "categoryId": "trigonometrijske_nejednadzbe",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Rješenje nejednadžbe }\\tan x\\ge 0.2\\text{ u intervalu }[0,\\pi]\\text{ je skup (uz }\\pi\\approx 3.14\\text{)}",
+    "choicesLatex": [
+      "[0.197,\\,\\pi]",
+      "[0,\\,0.197]",
+      "[\\tfrac{\\pi}{2},\\,1.197]",
+      "[0.197,\\,\\tfrac{\\pi}{2})"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "009",
+    "categoryId": "trigonometrijske_nejednadzbe",
+    "difficulty": "MEDIUM",
+    "promptLatex": "\\text{Rješenje nejednadžbe }\\sin(x-2025)<-\\sqrt{\\tfrac{13}{12}}\\text{ u intervalu }[0,2\\pi]\\text{ je skup}",
+    "choicesLatex": [
+      "[0,2\\pi]",
+      "[0,\\pi]",
+      "[\\pi,2\\pi]",
+      "\\emptyset"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "010",
+    "categoryId": "trigonometrijske_nejednadzbe",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Rješenje nejednadžbe }2\\sin^{2}x-\\sin x-1>0\\text{ u intervalu }[0,2\\pi]\\text{ je skup}",
+    "choicesLatex": [
+      "[0,\\tfrac{7\\pi}{6}]",
+      "[0,\\tfrac{11\\pi}{6}]",
+      "(\\tfrac{7\\pi}{6},\\tfrac{11\\pi}{6})",
+      "[\\tfrac{7\\pi}{6},\\tfrac{11\\pi}{6}]"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "011",
+    "categoryId": "trigonometrijske_nejednadzbe",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Rješenje nejednadžbe }2\\cos^{4}x-3\\cos^{2}x+1>0\\text{ u intervalu }[0,\\pi]\\text{ je skup}",
+    "choicesLatex": [
+      "[0,\\tfrac{\\pi}{4}]",
+      "[\\tfrac{3\\pi}{4},\\pi]",
+      "(\\tfrac{\\pi}{4},\\tfrac{3\\pi}{4})",
+      "[0,\\pi]"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "012",
+    "categoryId": "trigonometrijske_nejednadzbe",
+    "difficulty": "HARD",
+    "promptLatex": "\\text{Rješenje nejednadžbe }\\sqrt{3}\\,\\sin\\tfrac{x}{2}-\\cos\\tfrac{x}{2}\\ge 1\\text{ u intervalu }[0,2\\pi]\\text{ je skup}",
+    "choicesLatex": [
+      "[0,\\tfrac{\\pi}{3}]",
+      "[0,\\tfrac{2\\pi}{3}]",
+      "[\\tfrac{2\\pi}{3},\\tfrac{3\\pi}{2}]",
+      "[\\tfrac{2\\pi}{3},2\\pi]"
+    ],
+    "correctIndex": 3
+  }
+]

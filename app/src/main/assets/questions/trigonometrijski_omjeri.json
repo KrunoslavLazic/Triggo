@@ -1,6 +1,6 @@
 [
   {
-    "id": "trigonometrijski_omjeri_001",
+    "id": "001",
     "categoryId": "trigonometrijski_omjeri",
     "difficulty": "EASY",
     "promptLatex": "\\sin\\left(30^{\\circ}\\right) = ?",
@@ -13,7 +13,7 @@
     "correctIndex": 2
   },
   {
-    "id": "trigonometrijski_omjeri_002",
+    "id": "002",
     "categoryId": "trigonometrijski_omjeri",
     "difficulty": "EASY",
     "promptLatex": "\\cos\\left(60^{\\circ}\\right) = ?",
@@ -26,7 +26,7 @@
     "correctIndex": 1
   },
   {
-    "id": "trigonometrijski_omjeri_003",
+    "id": "003",
     "categoryId": "trigonometrijski_omjeri",
     "difficulty": "EASY",
     "promptLatex": "\\tan\\left(45^{\\circ}\\right) = ?",
@@ -39,7 +39,7 @@
     "correctIndex": 1
   },
   {
-    "id": "trigonometrijski_omjeri_004",
+    "id": "004",
     "categoryId": "trigonometrijski_omjeri",
     "difficulty": "EASY",
     "promptLatex": "\\cos\\left(0^{\\circ}\\right) =",
@@ -52,7 +52,7 @@
     "correctIndex": 1
   },
   {
-    "id": "trigonometrijski_omjeri_005",
+    "id": "005",
     "categoryId": "trigonometrijski_omjeri",
     "difficulty": "MEDIUM",
     "promptLatex": "\\sin\\left(90^{\\circ}\\right) =",
@@ -65,7 +65,7 @@
     "correctIndex": 1
   },
   {
-    "id": "trigonometrijski_omjeri_006",
+    "id": "006",
     "categoryId": "trigonometrijski_omjeri",
     "difficulty": "MEDIUM",
     "promptLatex": "\\text{Koji omjer je suprotnica/hipotenuza?}",
@@ -78,7 +78,7 @@
     "correctIndex": 2
   },
   {
-    "id": "trigonometrijski_omjeri_007",
+    "id": "007",
     "categoryId": "trigonometrijski_omjeri",
     "difficulty": "MEDIUM",
     "promptLatex": "\\tan\\left(90^{\\circ}\\right) =",
@@ -91,7 +91,7 @@
     "correctIndex": 2
   },
   {
-    "id": "trigonometrijski_omjeri_008",
+    "id": "008",
     "categoryId": "trigonometrijski_omjeri",
     "difficulty": "HARD",
     "promptLatex": "\\cos\\left(180^{\\circ}\\right) =",
@@ -104,7 +104,7 @@
     "correctIndex": 1
   },
   {
-    "id": "trigonometrijski_omjeri_009",
+    "id": "009",
     "categoryId": "trigonometrijski_omjeri",
     "difficulty": "HARD",
     "promptLatex": "\\sin\\left(270^{\\circ}\\right) =",
@@ -117,7 +117,7 @@
     "correctIndex": 1
   },
   {
-    "id": "trigonometrijski_omjeri_010",
+    "id": "010",
     "categoryId": "trigonometrijski_omjeri",
     "difficulty": "HARD",
     "promptLatex": "\\text{Koji identitet je točan?}",
